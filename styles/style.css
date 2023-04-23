@@ -11,9 +11,9 @@ h2 {
 }
 main,
 header {
-	border: 1px solid #bbb;
+	border: 1px solid #f7010163;
 	padding: 1rem;
-	background-color: #bed;
+	background-color: #f7010163;
 	box-shadow: 0 0 20px rgba(0,0,0,.1);
 }
 
