@@ -70,7 +70,7 @@ hr {
     display: grid;
     text-align: left;
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: Serif, Georgia;
     font-size: 64px;
     align-self: center;
     justify-self: left;
@@ -87,11 +87,11 @@ My Assignment List
 
 .Assigments li {
     text-align: left;
-    font-family: 'Roboto Mono', Courier, monospace;
+    font-family: 'Serif', Georgia;
 }
 
 .Assigments h1 {
-    font-family: 'Roboto Mono', Courier, monospace;
+    font-family: 'Serif', Georgia;
     font-size: 32px;
     font-weight: 700;
     text-shadow: 3px 3px 3px rgb(0 0 0 / 0.4);
@@ -102,7 +102,7 @@ My Assignment List
 
 /* I had 1.5 seconds and it gave me anxiety. It felt spastic. So, I slowed it down.*/
 .Assigments p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Serif', Georgia;
     text-align: left;
     font-style: italic;
     animation: animate 5s linear infinite;
