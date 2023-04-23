@@ -93,14 +93,6 @@ My Assignment List
     padding-bottom: 0px;
   }
 
-/* I had 1.5 seconds and it gave me anxiety. It felt spastic. So, I slowed it down.*/
-.Assigments p {
-    font-family: 'Serif', Georgia;
-    text-align: left;
-    font-style: italic;
-    animation: animate 5s linear infinite;
-}
-
 /* ****************************************************************************
 My Footer
 **************************************************************************** */ 
@@ -110,11 +102,11 @@ My Footer
     grid-row: 9/10;
     height: 128px;
     width: 1024px;
-    background: #004888;
+    background: #4804A3;
     align-items: center;
     justify-content: center;
     border-radius: 25px;
-    box-shadow: 0 5px 5px #012567;
+    box-shadow: 0 5px 5px #4804A3;
 }
 
 .foot-content {
