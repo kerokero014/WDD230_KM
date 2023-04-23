@@ -111,7 +111,7 @@ My Assignment List
 /* ****************************************************************************
 My Footer
 **************************************************************************** */ 
-.footer-container {
+.foot-container {
     display: grid;
     grid-column: 1/9;
     grid-row: 9/10;
@@ -124,12 +124,12 @@ My Footer
     box-shadow: 0 5px 5px #012567;
 }
 
-.footer-content {
+.foot-content {
     padding: 10px;
     width: 100%;
 }
   
-.footer-content h1 {
+.foot-content h1 {
     color: white;
     text-align: center;
     font-size: 24px;
@@ -137,7 +137,7 @@ My Footer
     filter: drop-shadow ( 3px 5px 2px #012567);
 }
 
-.footer-content p {
+.foot-content p {
     font-family: 'Roboto';
     color: #CCFF00;
     text-align: center;
