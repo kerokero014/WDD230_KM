@@ -115,7 +115,7 @@ My Footer
 }
   
 .foot-content h1 {
-    color: rgb(148, 9, 9);
+    color: white;
     text-align: center;
     font-size: 24px;
     font-family: 'Serif', Georgia;
@@ -124,6 +124,6 @@ My Footer
 
 .foot-content p {
     font-family: 'Serif', Georgia;
-    color: #CCFF00;
+    color: white;
     text-align: center;
 }
