@@ -126,12 +126,12 @@ My Footer
     color: white;
     text-align: center;
     font-size: 24px;
-    font-family: 'Roboto';
+    font-family: 'Serif', Georgia;
     filter: drop-shadow ( 3px 5px 2px #012567);
 }
 
 .foot-content p {
-    font-family: 'Roboto';
+    font-family: 'Serif', Georgia;
     color: #CCFF00;
     text-align: center;
 }
