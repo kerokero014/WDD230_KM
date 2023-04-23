@@ -110,11 +110,11 @@ My Footer
     grid-row: 9/10;
     height: 128px;
     width: 1024px;
-    background: #4804A3;
+    background: #004888;
     align-items: center;
     justify-content: center;
     border-radius: 25px;
-    box-shadow: 0 5px 5px #4804A3;
+    box-shadow: 0 5px 5px #012567;
 }
 
 .foot-content {
