@@ -39,8 +39,8 @@ hr {
 }
 
 .MyPic img {
-    width: 275px;
-    height: 220px;
+    width: 235px;
+    height: 190px;
     justify-self: center;
     align-self: center;
     filter: drop-shadow(0 0 0.75rem rgb(254, 254, 211));
