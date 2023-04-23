@@ -23,3 +23,11 @@ p {
 	background-color:#eee;
 	font-size: smaller;
 }
+
+.MyPic{
+	width: 220px;
+	height: 220px;
+	justify-self: center;
+	align-self: center;
+	filter: drop-shadow(0 0 0.75rem rgb(254, 254, 211));
+}
