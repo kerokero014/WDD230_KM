@@ -19,7 +19,7 @@ body {
 
 hr {
     visibility: visible;
-    border: 1px solid #004888;
+    border: 1px solid #4804A3;
     width: 1024px;
 }
 
@@ -30,10 +30,10 @@ hr {
     display: grid;
     grid-column: 1/9;
     grid-row: 1/2;
-    background-color: #004888;
+    background-color: #4804A3;
     border-radius: 25px;
     z-index: 0;
-    box-shadow: 0 5px 5px #012567;
+    box-shadow: 0 5px 5px #4804A3;
 }
 
 .bann .MyPic {
