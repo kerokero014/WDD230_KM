@@ -50,7 +50,7 @@ hr {
     display: grid;
     grid-column: 3/9;
     grid-row: 1/2;
-    font-family: Montserrat;
+    font-family: Serif, Georgia;
     justify-content: left;
     align-content: center;
 }
