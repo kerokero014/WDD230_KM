@@ -9,8 +9,7 @@ body {
 h2 {
 	margin-bottom: .5rem;
 }
-main,
-header {
+main{
 	border: 1px solid #f7010163;
 	padding: 1rem;
 	background-color: #f7010163;
