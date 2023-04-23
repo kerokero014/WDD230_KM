@@ -33,7 +33,7 @@ hr {
     display: grid;
     grid-column: 1/3;
     grid-row: 1/2;
-    width: 275px;
+    width: 256px;
     height: 256px;
     z-index: 1.5;
 }
