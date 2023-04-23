@@ -62,11 +62,11 @@ hr {
     align-content: center;
 }
 
-.banner .MyName a {
+.bann .MyName a {
   text-decoration: none;
 }
 
-.banner .MyName h1 {
+.bann .MyName h1 {
     display: grid;
     text-align: left;
     color: white;
