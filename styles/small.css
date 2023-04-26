@@ -9,14 +9,6 @@ body {
     grid-template-rows: repeat ( 10, 128px );
     font-family: 'Serif', Georgia;
 }
-
-hr {
-    visibility: visible;
-    border: 1px solid #4804A3;
-    width: 1025px;
-}
-
-
 .bann {
     display: grid;
     grid-column: 1/9;
