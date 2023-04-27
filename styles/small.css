@@ -101,6 +101,7 @@ body {
 }
   
 .foot-content h1 {
+    text-align: center;
     color: white;
     text-align: center;
     font-size: 24px;
