@@ -6,8 +6,8 @@ body {
 
 #skeleton {
     display: grid;
-    grid-template-columns: repeat ( 8, 128px );
-    grid-template-rows: repeat ( 10, 128px );
+    grid-template-columns: repeat( 8, 128px );
+    grid-template-rows: repeat( 10, 128px );
     font-family: 'Serif', Georgia;
 }
 .bann {
