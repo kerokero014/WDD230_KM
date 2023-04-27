@@ -5,3 +5,22 @@ body{
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
+header{ 
+    background-color: purple;
+    display: grid;
+    grid-template-columns: 400px, ifr;
+}
+
+header img{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+header h1{
+    grid-column: 2;
+    grid-row: 1;
+    font-weight: 700;
+    margin: auto;
+}
+
+
