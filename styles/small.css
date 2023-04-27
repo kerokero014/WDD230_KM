@@ -23,4 +23,29 @@ header h1{
     margin: auto;
 }
 
+a{ 
+    color:black;
+    font-size: 1.23em;
+}
+
+main, h1{ 
+    font-weight: 400;
+    text-align: center;
+}
+
+main, ul{ 
+    line-height: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+footer { 
+    background-color: #8659B4;
+    padding: 25px;
+    text-align: center;
+}
+
+footer p{ 
+    font-size: 0.75;
+}
 
