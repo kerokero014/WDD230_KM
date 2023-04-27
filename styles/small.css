@@ -1,12 +1,12 @@
 body{
     margin: auto;
     max-width: 800px;
-    background-color: whitesmoke;
+    background-color: #EECAFB;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 header{ 
-    background-color: purple;
+    background-color: #8659B4;
     display: grid;
     grid-template-columns: 400px, ifr;
 }
