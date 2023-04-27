@@ -4,49 +4,48 @@ body {
     background-color: #d6d2c4;
     font-family: Georgia, "Times New Roman", Times, serif;
   }
-  
-  header {
+header {
     background-color: #8659b4;
     display: grid;
     grid-template-columns: 400px 1fr;
   }
   
-  header img {
-    grid-column: 1;
+header img {
+   grid-column: 1;
     grid-row: 1;
     width: 250px;
     height: auto;
   }
   
-  header h1 {
+header h1 {
     grid-column: 2;
     grid-row: 1;
     font-weight: 700;
     margin: auto;
   }
   
-  a {
+a {
     color: purple;
     font-size: 1.25em;
   }
-  main h1 {
+main h1 {
     font-weight: 400;
     text-align: center;
   }
   
-  main ul {
+main ul {
     line-height: 2em;
     font-family: Georgia, "Times New Roman", Times, serif;
     color: black;
   }
   
-  footer {
+footer {
     background-color: #8659b4;
     padding: 25px;
     text-align: center;
   }
-  
-  footer p {
+
+footer p {
     font-size: 1em;
   }
   
