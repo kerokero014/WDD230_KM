@@ -1,7 +1,7 @@
 body{
     margin: auto;
     max-width: 800px;
-    background-color: #EECAFB;
+    background-color: #e5d693;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -36,7 +36,7 @@ main, h1{
 main, ul{ 
     line-height: 2em;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
+    color: black;
 }
 
 footer { 
