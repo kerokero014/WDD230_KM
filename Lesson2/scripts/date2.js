@@ -6,4 +6,4 @@ const minutes = ('0' + today.getMinutes()).slice(-2);
 const secondes = ('0' + today.getSeconds()).slice(-2);
 
 document.getElementById('copyrightYear').innerHTML = Annee
-document.getElementById('lastUpdatedDate').innerHTML = `${today.getDate()}/${today.getMonth()}/${today.getFullYear()} ${hueres}:${minutes}:${secondes}`
+document.getElementById('lastUpdatedDate').innerHTML = `${today.getDate()}/${today.getMonth()}/${today.getFullYear()} ${hueres}:${minutes}:${secondes}`;
