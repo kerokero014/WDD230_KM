@@ -1,10 +1,10 @@
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 32.5em) {
     img {
         width: 80%;
         height: 150px;
     }
     header{
-        
+
         width: 100%;
         border-radius: 30px;
     }
