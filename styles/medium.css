@@ -4,7 +4,6 @@
         height: 150px;
     }
     header{
-
         width: 100%;
         border-radius: 30px;
     }
@@ -23,6 +22,6 @@
         padding: 5px;
     }
     footer {
-        width: 60%;
+        width: 100%;
     }
 }
