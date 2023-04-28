@@ -23,5 +23,6 @@
     }
     footer {
         width: 100%;
+        grid-template-columns: auto;
     }
 }
