@@ -14,7 +14,7 @@ header {
 }
 
 header img {
-  justify-self: right;
+  justify-self: left;
   width: 300px;
   height: auto;
   border-radius: 8px;
@@ -22,7 +22,7 @@ header img {
 }
 
 header h1 {
-  align-self: center;
+  align-self: right;
   font-weight: 700;
   margin: auto;
 }
