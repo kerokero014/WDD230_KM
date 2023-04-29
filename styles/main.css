@@ -11,10 +11,12 @@ header {
   grid-gap: 15px;
   border-radius: 8px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  width: 100%;
 }
 
 header img {
-  justify-self: left;
+  grid-column: 1;
+  grid-row: 1;
   width: 300px;
   height: auto;
   border-radius: 8px;
@@ -22,7 +24,8 @@ header img {
 }
 
 header h1 {
-  justify-self: right;
+  grid-column: 2;
+  grid-row: 1;
   font-weight: 700;
   margin: auto;
 }

@@ -1,14 +1,14 @@
 @media only screen and (min-width: 32.5em) {
     img {
-        justify-self: center;
+        width: 80%;
+        height: 150px;
     }
     header{
-        width: 100%;
-        border-radius: 8px;
-        grid-template-columns: auto;
+        width: 60%;
+        border-radius: 30px;
     }
     header h1 {
-        text-align: right;
+        font-size: large;
     }
     main h2 {
         font-size: 30px;
@@ -22,6 +22,6 @@
         padding: 5px;
     }
     footer {
-        width: 95%;
+        width: 60%;
     }
 }
