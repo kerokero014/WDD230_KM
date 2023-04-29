@@ -4,7 +4,7 @@
     }
     header{
         width: 100%;
-        border-radius: 30px;
+        border-radius: 8px;
         grid-template-columns: auto;
     }
     header h1 {
@@ -22,7 +22,6 @@
         padding: 5px;
     }
     footer {
-        width: 100%;
-        grid-template-columns: auto;
+        width: 95%;
     }
 }

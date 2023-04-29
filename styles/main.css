@@ -14,7 +14,7 @@ header {
 }
 
 header img {
-  justify-self: center;
+  justify-self: right;
   width: 300px;
   height: auto;
   border-radius: 8px;
