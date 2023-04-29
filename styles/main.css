@@ -22,7 +22,7 @@ header img {
 }
 
 header h1 {
-  align-self: right;
+  justify-self: right;
   font-weight: 700;
   margin: auto;
 }
