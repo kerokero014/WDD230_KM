@@ -3,7 +3,7 @@ header {
   color: white;
   padding: 0.75em;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Castoro Titling', cursive;
   text-shadow: 2px 2px 5px black;
   border-radius: 8px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -31,7 +31,7 @@ main .sites {
 main .sites h1 {
   padding: 0.2em;
   color: black;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Castoro Titling', cursive;
   border-radius: 10px 10px 0 0;
   margin-top: 0;
   background-color: #ffdbda;
@@ -41,7 +41,7 @@ main .sites h2,
 div,
 img,
 p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Castoro Titling', cursive;
 }
 .sites div,
 img,
@@ -60,7 +60,7 @@ footer {
   color: white;
   padding: 0.45em;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Castoro Titling', cursive;
   text-shadow: 2px 2px 5px black;
   border-radius: 8px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
