@@ -1,5 +1,5 @@
 header {
-    background-color: #7B506F;
+    background-color: #604D53;
     color: white;
     padding: 0.75em;
     text-align: center;
@@ -8,28 +8,22 @@ header {
     border-radius: 8px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
+main .sites {
+    margin: 1em;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #DD99BB;
+    border-radius: 10px 10px 0px 0px;
+}
 
 body {
-    background-color: #9DB5B2;
+    background-color: #9DA3A4;
 
-}
-.first-website{
-    max-height: 50px;
-    width: auto;
-}
-
-.second-website{
-    max-height: 50px;
-    width: auto;
-}
-
-.last-website{
-    max-height: 50px;
-    width: auto;
 }
 
 footer {
-    background-color: #7B506F;
+    background-color: #604D53;
     color: white;
     padding: 0.75em;
     text-align: center;
