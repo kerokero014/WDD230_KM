@@ -1,0 +1,26 @@
+@media only screen and (max-width: 16.25em) {
+    main {
+        grid-template-columns: 1fr;
+    }
+    #first-website {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    #second-website {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    #last-website{
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .sites img {
+        width: 85%;
+    }
+    header {
+        font-size: 0.75em;
+    }
+    footer {
+        font-size: 0.75em;
+    }
+}
