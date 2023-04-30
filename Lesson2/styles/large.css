@@ -16,7 +16,22 @@ main .sites {
     background-color: #DD99BB;
     border-radius: 10px 10px 0px 0px;
 }
+.sites img {
+    max-width: 100%;
+    width: 85%;
+    max-height: 100%;
+    display: block;
+    margin: 1em;
+}
 
+main .sites h1{
+    padding: 0.2em;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 10px 10px 0 0;
+    margin-top: 0;
+    background-color: rgb(240, 86, 41);
+}
 body {
     background-color: #9DA3A4;
 
