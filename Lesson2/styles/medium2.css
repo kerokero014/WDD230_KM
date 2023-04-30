@@ -2,7 +2,7 @@
   main {
     grid-template-columns: 1fr 1fr;
   }
-
+  
   main .sites {
     width: 95%;
   }
