@@ -13,6 +13,20 @@ body {
     background-color: #9DB5B2;
 
 }
+.first-website{
+    max-height: 50px;
+    width: auto;
+}
+
+.second-website{
+    max-height: 50px;
+    width: auto;
+}
+
+.last-website{
+    max-height: 50px;
+    width: auto;
+}
 
 footer {
     background-color: #7B506F;
