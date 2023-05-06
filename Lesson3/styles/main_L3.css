@@ -63,7 +63,13 @@ header img{
     height: auto;
 }
 
-main p, h1 {
+main p{
   padding: 30px;
-  margin:auto
+  margin: auto;
+  width: 60%;
+  font-family: "Lora", serif;
+}
+
+main h1{
+    font-family: 'Comfortaa', cursive;
 }
