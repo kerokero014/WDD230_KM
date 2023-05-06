@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lora&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
 
 * {
   box-sizing: border-box;
@@ -13,7 +14,7 @@
 li,
 a,
 button {
-  font-family: "Lora", serif;
+  font-family: "Nanum Myeongjo", serif;
   font-weight: 500;
   font-size: 16px;
   color: whitesmoke;
@@ -63,13 +64,14 @@ header img {
   height: auto;
 }
 
-main p{
+main p {
   padding: 30px;
   margin: auto;
   width: 60%;
   font-family: "Lora", serif;
 }
 
-main h1{
-    font-family: 'Comfortaa', cursive;
+main h1,
+h2 {
+  font-family: "Comfortaa", cursive;
 }
