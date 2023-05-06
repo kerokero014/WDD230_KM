@@ -26,6 +26,8 @@ header {
 
 .logo {
   cursor: pointer;
+  width: 125px;
+  height: auto;
 }
 
 .nav_links li {
@@ -54,7 +56,3 @@ button:hover {
   background-color: rgba(6, 214, 214, 0.8);
 }
 
-header img{
-    width: 125px;
-    height: auto;
-}
