@@ -63,7 +63,7 @@ header img{
     height: auto;
 }
 
-main p, h1 {
-  padding: 20px;
+main p, h1, img {
+  padding: 30px;
   margin:auto
 }
