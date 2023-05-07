@@ -75,3 +75,28 @@ main h1,
 h2 {
   font-family: "Comfortaa", cursive;
 }
+
+#Colors_boxes{
+  margin:5em; 
+}
+
+#Color_boxes{
+  margin:1em;
+  padding: 3em;
+  border-style: solid;
+  display: inline-block;
+}
+
+#first_color{
+  background-color:#1c3738 ;
+}
+
+#second_color{
+  background-color: #42f6f6;
+}
+#Third_color{
+  background-color:#06d6d6cc ;
+}
+#forth_color{
+  background-color: #ffffff;
+}
