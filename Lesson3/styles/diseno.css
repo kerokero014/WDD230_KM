@@ -65,7 +65,7 @@ header img {
 }
 
 main p {
-  padding: 20px;
+  padding: 37px;
   margin: auto;
   width: 60%;
   font-family: "Lora", serif;
@@ -74,29 +74,29 @@ main p {
 main h1,
 h2 {
   font-family: "Comfortaa", cursive;
+  margin:25px;
 }
 
-#Color_boxes{
-  margin:5em; 
+#Color_boxes {
+  margin: 5em;
 }
 
-#Color_boxes a{
-  margin:1em;
+#Color_boxes a {
+  margin: 1em;
   padding: 3em;
   border-style: solid;
   display: inline-block;
 }
-
-#first_color{
-  background-color:#1c3738 ;
+#first_color {
+  background-color: #1c3738;
 }
 
-#second_color{
+#second_color {
   background-color: #42f6f6;
 }
-#Third_color{
-  background-color:#06d6d6cc ;
+#Third_color {
+  background-color: #06d6d6cc;
 }
-#forth_color{
+#forth_color {
   background-color: #ffffff;
 }
