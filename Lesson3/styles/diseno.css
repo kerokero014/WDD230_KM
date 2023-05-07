@@ -74,7 +74,7 @@ main p {
 main h1,
 h2 {
   font-family: "Comfortaa", cursive;
-  margin:25px;
+  margin: 25px;
 }
 
 #Color_boxes {
@@ -99,4 +99,16 @@ h2 {
 }
 #forth_color {
   background-color: #ffffff;
+}
+
+.header_ex {
+  font-family: "Nanum Myeongjo", serif;
+}
+
+.P_ex {
+  font-family: "Lora", serif;
+}
+
+.Header_#12{
+  font-family: "Comfortaa", cursive;
 }
