@@ -56,7 +56,7 @@ button {
 }
 
 button:hover {
-  background-color: #06d6d6cc;
+  background-color:rgba(0,136,169,0.8);
 }
 
 header img {
