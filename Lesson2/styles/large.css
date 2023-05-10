@@ -1,3 +1,23 @@
+@media screen and (min-width: 1201px){
+  .sites{
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+  }
+
+  .first-website{
+    grid-column: 1;
+  }
+
+  .second-website{
+    grid-column: 2;
+  }
+
+  .last-website{
+    grid-column:3;
+  }
+}
+
+
+
 header {
   background-color: #604d53;
   color: white;
