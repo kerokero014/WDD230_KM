@@ -58,8 +58,9 @@ body {
 footer {
   background-color: #604d53;
   color: white;
-  padding: 0.45em;
+  padding: 1px;
   text-align: center;
+  margin-top: 20px;
   font-family: "Castoro Titling", cursive;
   text-shadow: 2px 2px 5px black;
   border-radius: 8px;
