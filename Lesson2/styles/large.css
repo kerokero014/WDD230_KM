@@ -17,15 +17,16 @@ main .sites {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+  
   background-color: #dd99bb;
   border-radius: 10px 10px 0px 0px;
 }
 .sites img {
   max-width: 100%;
-  width: 85%;
-  max-height: 100%;
+  height: auto;
   display: block;
-  margin: 1em;
+  margin: 0 auto;
+  margin-top: 10px;
 }
 
 main .sites h1 {
