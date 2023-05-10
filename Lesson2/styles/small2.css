@@ -2,15 +2,15 @@
     main {
         grid-template-columns: 1fr;
     }
-    #first-website {
+    .first-website {
         grid-column: 1;
         grid-row: 1;
     }
-    #second-website {
+    .second-website {
         grid-column: 1;
         grid-row: 2;
     }
-    #last-website{
+    .last-website{
         grid-column: 1;
         grid-row: 3;
     }

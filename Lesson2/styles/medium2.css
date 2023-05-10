@@ -7,22 +7,22 @@
     width: 95%;
   }
 
-  #first-website {
+  .first-website {
     grid-column: 1/2;
   }
 
-  #second-website {
+  .second-website {
     grid-column: 2/3;
   }
 
-  #last-website {
+  .last-website {
     grid-column: 1/3;
     grid-row: 2;
   }
   .sites img {
     width: 85%;
   }
-  #last-website {
+  .last-website {
     width: 90%;
   }
 }

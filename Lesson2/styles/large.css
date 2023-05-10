@@ -10,14 +10,13 @@ header {
 }
 main {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 20px;
+  padding: 20px;
 }
 main .sites {
-  margin: 1em;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  
+  padding: 20px;
+  margin: 10px;
   background-color: #dd99bb;
   border-radius: 10px 10px 0px 0px;
 }
