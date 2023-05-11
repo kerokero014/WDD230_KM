@@ -19,9 +19,10 @@
     }
     header {
         font-size: 80%;
+        width: 90%;
     }
     footer {
         font-size: 0.75em;
-        width:90%;
+        width: 97%;
     }
 }
