@@ -20,4 +20,12 @@
     grid-row: 2;
   }
 
+  header{
+    width:92%;
+  }
+
+  footer{
+    width: 98%;
+  }
+
 }
