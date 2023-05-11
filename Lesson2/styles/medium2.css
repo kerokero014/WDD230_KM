@@ -1,17 +1,28 @@
-@media screen and (min-width: 801px) and (max-width: 1200px) {
+@media only screen and (max-width: 32.5em) {
   main {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  main .sites {
+    width: 95%;
   }
 
-  .first-website {
-    grid-column: 1;
+  #first-website {
+    grid-column: 1/2;
   }
 
-  .second-website {
-    grid-column: 2;
+  #second-website {
+    grid-column: 2/3;
   }
 
-  .last-website {
-    grid-column: 1 / span 2;
+  #last-website {
+    grid-column: 1/3;
+    grid-row: 2;
+  }
+  .sites img {
+    width: 85%;
+  }
+  #last-website {
+    width: 90%;
   }
 }
