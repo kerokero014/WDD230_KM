@@ -53,6 +53,7 @@ p {
 }
 body {
   background-color: #9da3a4;
+  display: grid;
 }
 
 footer {
