@@ -12,7 +12,6 @@
 }
 
 li,
-a,
 button {
   font-family: "Nanum Myeongjo", serif;
   font-weight: 500;
@@ -48,7 +47,7 @@ header {
 }
 button {
   padding: 9px 25px;
-  background-color:rgba(0,136,169,1);
+  background-color: rgba(0, 136, 169, 1);
   border: none;
   border-radius: 50px;
   cursor: pointer;
@@ -56,7 +55,7 @@ button {
 }
 
 button:hover {
-  background-color:rgba(0,136,169,0.8);
+  background-color: rgba(0, 136, 169, 0.8);
 }
 
 header img {
@@ -109,6 +108,6 @@ h2 {
   font-family: "Lora", serif;
 }
 
-.Header_#12{
+.Header_#12 {
   font-family: "Comfortaa", cursive;
 }
