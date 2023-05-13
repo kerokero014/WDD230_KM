@@ -1,53 +1,52 @@
-.brand img{
-    width: 200px;
-    height: auto;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #1c3738;
+  color: white;
+  text-align: center;
 }
 
-.second img{
-    width: 15px;
-    height: auto;
+li,
+a {
+  font-family: "Lora", serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: whitesmoke;
+  text-decoration: none;
 }
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color:#1C3738;
-    color:white;
-    text-align: center;
-  }
-  
-  li,
-  a,
-  button {
-    font-family: "Lora", serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: whitesmoke;
-    text-decoration: none;
-  }
-  
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
-  }
-  
-  .logo {
-    cursor: pointer;
-    width: 125px;
-    height: auto;
-  }
-  
-  .nav_links li {
-    display: inline-block;
-    padding: 0px 20px;
-  }
-  
-  .nav_links li a {
-    transition: all 0.3s ease 0s;
-  }
-  
-  .nav_links li a:hover {
-    color: rgb(66, 246, 246);
-  }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.logo {
+  cursor: pointer;
+  width: 125px;
+  height: auto;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+  color: rgb(66, 246, 246);
+}
+.brand img {
+  width: 200px;
+  height: auto;
+}
+
+.second img {
+  width: 15px;
+  height: auto;
+}

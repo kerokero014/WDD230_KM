@@ -30,17 +30,30 @@ header {
   height: auto;
 }
 
-.ul li {
+.nav_links li {
   display: inline-block;
   padding: 0px 20px;
 }
 
-.ul li a {
+.nav_links li a {
   transition: all 0.3s ease 0s;
 }
 
-.ul li a:hover {
+.nav_links li a:hover {
   color: rgb(66, 246, 246);
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 136, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(6, 214, 214, 0.8);
 }
 
 header img{
@@ -48,3 +61,13 @@ header img{
     height: auto;
 }
 
+main p{
+  padding: 30px;
+  margin: auto;
+  width: 60%;
+  font-family: "Lora", serif;
+}
+
+main h1{
+    font-family: 'Comfortaa', cursive;
+}
