@@ -23,8 +23,7 @@ header {
   padding: 30px 10%;
 }
 
-.logo {
-  cursor: pointer;
+.brand {
   width: 125px;
   height: auto;
 }
@@ -41,14 +40,8 @@ header {
 .ul li a:hover {
   color: rgb(66, 246, 246);
 }
-.brand img {
-  width: 200px;
-  height: auto;
-}
 
 .second img {
   width: 15px;
   height: auto;
-  display: block;
-  float: right;
 }
