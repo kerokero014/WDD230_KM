@@ -99,7 +99,7 @@ header {
     background: #b8b8b7;
     display: flex;
     flex-direction: column;
-    transition: all 0.5 ease;
+    transition: all 0.5s ease;
   }
 
   .navbar a {
@@ -111,7 +111,7 @@ header {
 
   .navbar a:hover {
     color: #89b0ae;
-    transform: tranlateY(10px);
+    transform: translateY(10px);
   }
 
   .navbar.open {
