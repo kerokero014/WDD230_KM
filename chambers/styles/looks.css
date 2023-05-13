@@ -111,7 +111,7 @@ header {
 
   .navbar a:hover {
     color: #89b0ae;
-    transform: translateY(10px);
+    transform: translateY(5px);
   }
 
   .navbar.open {
