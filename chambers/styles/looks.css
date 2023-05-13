@@ -1,4 +1,13 @@
+*{
+    margin:0;
+    padding:0;
+}
 .brand{
     width: 200px;
+    height: auto;
+}
+
+.second{
+    width: 15px;
     height: auto;
 }
