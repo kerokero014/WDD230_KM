@@ -7,7 +7,7 @@
 }
 
 header img {
-  width: 160px;
+  width: 150px;
 }
 
 .main img {
@@ -21,7 +21,7 @@ body {
 }
 
 header {
-  position: fixed;
+  position: relative;
   width: 100%;
   top: 0;
   right: 0;
@@ -68,5 +68,67 @@ header {
   z-index: 10001;
   display: none;
 }
+/*--------------Main----------------*/
 
-/* large responsivenes */
+main {
+  display: grid;
+  grid-template-areas:
+    "hero"
+    "event"
+    "weather"
+    "news"
+    "spotlights";
+}
+#hero {
+  grid-area: hero;
+}
+#event {
+  grid-area: event;
+}
+#weather {
+  grid-area: weather;
+}
+#news {
+  grid-area: news;
+}
+#spotlights {
+  grid-area: spotlights;
+  padding: 1em;
+}
+#spotlight3,
+#Join {
+  display: none;
+}
+main div {
+  margin: 0.3em;
+  background-color: #46595a;
+  padding: 1em;
+  border: 1px solid gray;
+  font-family: "Roboto Slab", sans-serif;
+  color: white;
+  padding: 4em;
+}
+#spotlights div {
+  border: 1px solid gray;
+  margin: 0.3em;
+  padding: 5em;
+}
+
+/* FOoter------------------*/
+
+@media only screen and (max-width: 600px){
+  
+  .wholefoot{
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr 1fr 1fr;
+    place-items: center;
+    margin-top: 1rem;
+    grid-gap: 5px;
+  }
+
+  .wholefoot h1, h2, p{
+    font-size: 15px;
+    padding: 8px;
+    text-align: center;
+  }
+}
