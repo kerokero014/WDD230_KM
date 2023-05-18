@@ -116,9 +116,8 @@ main div {
 
 /* FOoter------------------*/
 
-@media only screen and (max-width: 600px){
-  
-  .wholefoot{
+@media only screen and (max-width: 600px) {
+  .wholefoot {
     display: grid;
     grid-template-columns: 5fr 1fr 1fr 1fr 1fr;
     place-items: center;
@@ -126,7 +125,9 @@ main div {
     grid-gap: 5px;
   }
 
-  .wholefoot h1, h2, p{
+  .wholefoot h1,
+  h2,
+  p {
     font-size: 15px;
     padding: 8px;
     text-align: center;
