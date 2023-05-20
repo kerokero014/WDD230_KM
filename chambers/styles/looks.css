@@ -94,7 +94,7 @@ main {
   text-shadow: 2px 2px #A3B7B8;
   right: 1rem;
   margin-top: 0.5rem;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 #hero button {
@@ -102,10 +102,12 @@ main {
   bottom: 1rem;
   left: 1rem;
   padding: 1rem;
-  background-color:#A3B7B8;
+  background-color:#46595a;
   border-radius: 10px;
-  font-family: "Roboto Slab", serif;
+  font-family: 'Nanum Myeongjo', serif;
   font-weight: bold;
+  color:white;
+  text-shadow: 2px 2px black;
 }
 
 #hero img{
@@ -145,12 +147,13 @@ main {
 }
 
 #event p {
-  font-family: "Montserrat", serif;
-  background-color: #a3b7b8;
+  font-family: 'Comfortaa', cursive;
+  background-color: #46595a;
   padding: 1rem;
   bottom: 1px;
   margin: 1rem;
   border-radius: 10px;
+  color:white;
 }
 
 #event img {
@@ -184,10 +187,10 @@ main {
 #weTempt {
   float: right;
   font-size: 3rem;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: 'Comfortaa', cursive;
 }
 #weStatus {
-  font-family: "Roboto Slab", sans-serif;
+  font-family: 'Comfortaa', cursive;
   text-align: right;
   padding-right: 1rem;
   border-bottom: 1px solid black;
@@ -229,11 +232,12 @@ main {
   background-color: #adbfb8;
   padding: 5px;
   box-shadow: 2px 2px 10px black;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: 'Lora', serif;
 }
 
 #spotlights .spotlight h1 {
-  text-shadow: 2px 2px 2px white;
+  text-shadow: 2px 2px 2px black;
+  font-family: 'Comfortaa', cursive;
 }
 .spots-contact-details {
   border-top: 1px solid black;
@@ -248,8 +252,8 @@ main div {
   margin: 0.3em;
   background-color: #46595a;
   padding: 1em;
-  border: 1px solid gray;
-  font-family: "Roboto Slab", sans-serif;
+  /*border: 1px solid gray;*/
+  font-family: 'Lora', serif;
   color: white;
   padding: 4em;
 }

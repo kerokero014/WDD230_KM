@@ -42,7 +42,7 @@
   .update {
     padding: 15px;
     background-color: #46595a;
-    font-family: "Montserrat", serif;
+    font-family: 'Lora', serif;
     font-size: 75%;
     text-align: center;
   }
@@ -59,39 +59,39 @@
       "event event weather";
   }
 
-/*---------Join------------------*/
+  /*---------Join------------------*/
 
-#Join{
-  padding: 16px;
-}
+  #Join {
+    padding: 16px;
+  }
 
-#Join button{
-  padding: 20px;
-  font-weight: bold;
-  width: 100%;
-  border-radius: 20px;
-}
+  #Join button {
+    padding: 20px;
+    font-weight: bold;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #adbfb8;
+  }
 
-#Join p{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  text-align: center;
-  padding: 20px;
-  margin:30px;
+  #Join p {
+    font-family: 'Lora', serif;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    font-size: 25px;
+  }
 
+  /*----------------weather------------------*/
 
-}
+  #Weather {
+    margin-left: auto;
+    margin-right: 0;
+    width: 90%;
+  }
 
-/*----------------weather------------------*/
-
-#Weather{
-  margin-left: auto;
-  margin-right: 0;
-  width: 90%;
-}
-
-#weTempt{
-  font-size: 32px;
-}
+  #weTempt {
+    font-size: 32px;
+  }
   /*-------------------------Footer------------------*/
   footer img {
     width: 130px;
@@ -100,7 +100,7 @@
   .update {
     padding: 15px;
     background-color: #46595a;
-    font-family: "Montserrat", serif;
+    font-family: 'Lora', serif;
     font-size: 75%;
     text-align: center;
   }
