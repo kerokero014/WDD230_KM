@@ -59,7 +59,40 @@
       "event event weather";
   }
 
-  /*Footer*/
+/*---------Join------------------*/
+
+#Join{
+  padding: 16px;
+}
+
+#Join button{
+  padding: 20px;
+  font-weight: bold;
+  width: 100%;
+  border-radius: 20px;
+}
+
+#Join p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  margin:30px;
+
+
+}
+
+/*----------------weather------------------*/
+
+#Weather{
+  margin-left: auto;
+  margin-right: 0;
+  width: 90%;
+}
+
+#weTempt{
+  font-size: 32px;
+}
+  /*-------------------------Footer------------------*/
   footer img {
     width: 130px;
   }

@@ -15,7 +15,8 @@
 /*----------------------main------------------*/
 
 @media only screen and (min-width: 1010px) {
-  #spotlight3 {
+  #spotlight3,
+  #Join {
     display: block;
   }
   #spotlights {
@@ -30,6 +31,26 @@
       "Join news news spotlights";
   }
 
+  /* ---------Main----------------*/
+
+  main div {
+    margin: 0.5rem;
+  }
+  main {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  /* --------- Hero / CIty --------------*/
+
+  #hero h1 {
+    font-size: 48px;
+  }
+  #hero button {
+    font-size: 38px;
+  }
+
+  /*---------footerr-----------------*/
   footer img {
     width: 180px;
   }
