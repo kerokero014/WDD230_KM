@@ -67,6 +67,7 @@ header {
   cursor: pointer;
   z-index: 10001;
   display: none;
+  font-size: 28px;
 }
 
 /*--------------Main----------------*/
