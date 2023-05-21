@@ -62,7 +62,9 @@
   /*---------Join------------------*/
 
   #Join {
+    grid-area:Join;
     padding: 16px;
+    display: block
   }
 
   #Join button {
