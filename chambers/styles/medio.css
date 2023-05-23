@@ -59,6 +59,15 @@
       "event event weather";
   }
 
+  /*--------------potlights-----------------*/
+  #spotlights{
+    display:flex;
+    flex-direction: row;
+    padding:16px
+  }
+
+
+
   /*---------Join------------------*/
 
   #Join {
