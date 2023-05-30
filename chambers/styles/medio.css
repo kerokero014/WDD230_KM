@@ -58,16 +58,12 @@
       "Join Join Join"
       "event event weather";
   }
-
-  /*--------------potlights-----------------*/
+  /*--------------spotlights-----------------*/
   #spotlights{
     display:flex;
     flex-direction: row;
     padding:16px
   }
-
-
-
   /*---------Join------------------*/
 
   #Join {
