@@ -218,13 +218,17 @@ main {
   grid-area: spotlights;
   padding: 1rem;
 }
+#spotlights p{
+  font-size: 20px;
+}
+
 #Join,
 #spotlight3 {
   display: none;
 }
 
 #spotlights img {
-  width: 35%;
+  width: 60%;
 }
 
 #spotlights .spotlight {
