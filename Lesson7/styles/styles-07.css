@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(45deg,gray,white);
+    background-image: linear-gradient(35deg,rgb(0, 136, 136),rgb(164, 118, 118));
     background-attachment: fixed;
     font-family: sans-serif;
     display: grid;
