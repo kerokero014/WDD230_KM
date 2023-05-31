@@ -70,6 +70,17 @@ header {
   font-size: 28px;
 }
 
+/*------------Banner-----------------*/ 
+
+#banner {
+  text-align: center;
+  background-color: #a7b3ae;
+  font-family:"Nanum Myeongjo", serif;
+  padding: 1rem;
+  display: none;
+}
+
+
 /*--------------Main----------------*/
 
 main {
@@ -158,7 +169,7 @@ main {
 
 #event img {
   width: 100%;
-  height: 420px;
+  height: 100%;
   object-fit: cover;
 }
 /*-----------Weather----------------*/
