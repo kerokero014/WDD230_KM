@@ -12,7 +12,7 @@
   }
 }
 
-/*----------------------main------------------*/
+/*----------------------main Grid ------------*/
 
 @media only screen and (min-width: 1010px) {
   #spotlight3,
@@ -49,8 +49,6 @@
     grid-column: 3/4;
     grid-row: 1/4;
   }
-  /* ---------Main----------------*/
-
   main div {
     margin: 0.5rem;
   }
@@ -58,10 +56,17 @@
     width: 95%;
     margin: 0 auto;
   }
-/* ------------- spotlights-------*/
-#spotlights{
-  width: min-content;
-}
+  /* ----------------Main Discver Big page------------*/
+
+  #discover-main div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* ------------- spotlights-------*/
+  #spotlights {
+    width: min-content;
+  }
 
   /* --------- Hero / CIty --------------*/
 

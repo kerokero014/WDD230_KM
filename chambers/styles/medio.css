@@ -1,5 +1,5 @@
 /* meduim responsiveness*/
-/*------------------NAVBAR*/
+/*------------------NAVBAR------------------*/
 @media screen and (max-width: 900px) {
   #menu-icon button {
     display: block;
@@ -42,7 +42,7 @@
   .update {
     padding: 15px;
     background-color: #46595a;
-    font-family: 'Lora', serif;
+    font-family: "Lora", serif;
     font-size: 75%;
     text-align: center;
   }
@@ -58,18 +58,33 @@
       "Join Join Join"
       "event event weather";
   }
+
+  /*-----------------------main Discover Page------------------*/
+
+  #discover-main {
+    display: block;
+  }
+  #discover-main div {
+    padding-top: 2.5rem;
+    padding-bottom: 0.1rem;
+  }
+  #discover-main div img:hover {
+    transform: scale(1.05);
+    transition: 1s;
+  }
+
   /*--------------spotlights-----------------*/
-  #spotlights{
-    display:flex;
+  #spotlights {
+    display: flex;
     flex-direction: row;
-    padding:16px
+    padding: 16px;
   }
   /*---------Join------------------*/
 
   #Join {
-    grid-area:Join;
+    grid-area: Join;
     padding: 16px;
-    display: block
+    display: block;
   }
 
   #Join button {
@@ -81,7 +96,7 @@
   }
 
   #Join p {
-    font-family: 'Lora', serif;
+    font-family: "Lora", serif;
     text-align: center;
     padding: 20px;
     margin: 30px;
@@ -107,7 +122,7 @@
   .update {
     padding: 15px;
     background-color: #46595a;
-    font-family: 'Lora', serif;
+    font-family: "Lora", serif;
     font-size: 75%;
     text-align: center;
   }
