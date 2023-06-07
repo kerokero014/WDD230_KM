@@ -9,38 +9,50 @@ body {
   grid-template-rows: 1fr;
   grid-template-columns: 1fr;
 }
+
 table {
-  font-family: Ubuntu, sans-serif;
+  font-family: "Nanum Myeongjo", serif;
   text-align: center;
   border-collapse: collapse;
-  box-shadow: 8px 8px 10px #AFC2D5;
+  box-shadow: 8px 8px 10px #afc2d5;
 }
+
 table * {
   padding: 0.5rem;
-  border: solid 1px lightgray;
+  border: solid 1px black;
 }
-thead,
-tfoot {
-  background-color: #E4EAF1;
-}
+
 thead {
-  font-size: 1.7rem;
+  font-size: 2rem;
 }
-tbody th,
-.november {
-  background-color:#617c99;
-  color: white;
-}
+
 tbody tr {
-  background-color: #e7ffed;
+  background-color: #a2a4a4;
 }
+
 tbody tr:nth-child(even) {
-  background-color: #e7f0ed;
+  background-color: #f5f5f5;
 }
+
 tfoot {
   font-size: 0.8rem;
 }
+
 table em {
   border: none;
 }
+
+/*-----------new----------- */
+#F-Three {
+  background-color: #535052;
+  color: white;
+  font-size: 1.5rem;
+}
+
+#Title {
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+
 /* color scheme: #e7f0ed, #e7ffed, and #628ca6, #7fb9c2 */
