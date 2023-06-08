@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/looks.css" />
     <link rel="stylesheet" href="styles/medio.css" />
@@ -16,8 +16,8 @@
       rel="stylesheet"
     />
     <title>Join Chambers Page - Kevin Mendoza</title>
-</head>
-<body>
+  </head>
+  <body>
     <div id="banner"></div>
     <header>
       <a href="index.html" class="logo">
@@ -42,32 +42,57 @@
         <script src="scripts/date.js"></script>
       </div>
     </header>
-    <main> 
-        <h1>New Member Application</h1>
+    <main>
+      <h1 id="nma">New Member Application</h1>
+      <form action="thanks.html">
+        <fieldset>
+          <legend>Contact Information</legend>
+          <label
+            >Full Name<span>*</span>
+            <input
+              name="name"
+              pattern="^[a-zA-Z ]{5,}[a-zA-Z]$"
+              type="text"
+              required
+            />
+          </label>
+          <label
+            >Email
+            <input name="email" type="email" placeholder="someone@gmail.com" />
+          </label>
+          <label
+            >Phone Number<span>*</span>
+            <input name="phone" type="tel" minlength="7" required />
+          </label>
+          <label
+            >Zip Code<span>*</span>
+            <input name="zip" type="number" min="10000" required />
+          </label>
+        </fieldset>
+        <input type="submit" value="Report Storm" />
+      </form>
     </main>
     <footer>
-        <div class="wholefoot">
-          <img src="images/UV-Chamber-Primarylogo.webp" alt="logo for page" />
-          <div class="location">
-            <h1>Utah Valley Chamber Commerce</h1>
-            <p>Utah Valley, Utah</p>
-          </div>
-          <div class="Coinfo">
-            <h2>utahvalleyChamb@utah.org</h2>
-            <p>801-225-0000</p>
-            <p>Location Map</p>
-          </div>
+      <div class="wholefoot">
+        <img src="images/UV-Chamber-Primarylogo.webp" alt="logo for page" />
+        <div class="location">
+          <h1>Utah Valley Chamber Commerce</h1>
+          <p>Utah Valley, Utah</p>
         </div>
-        <div class="update">
-          <h1>
-            &copy; <span id="copyrightYear"></span> | Kevin J. Mendoza | Rexburg
-          </h1>
-          <p>Last Updated&nbsp;<span id="lastUpdatedDate"></span></p>
+        <div class="Coinfo">
+          <h2>utahvalleyChamb@utah.org</h2>
+          <p>801-225-0000</p>
+          <p>Location Map</p>
         </div>
-      </footer>
-      <script src="scripts/date.js"></script>
-      <script src="scripts/windChill.js"></script>
-      <script src="scripts/banner.js"></script>
-
-</body>
+      </div>
+      <div class="update">
+        <h1>
+          &copy; <span id="copyrightYear"></span> | Kevin J. Mendoza | Rexburg
+        </h1>
+        <p>Last Updated&nbsp;<span id="lastUpdatedDate"></span></p>
+      </div>
+    </footer>
+    <script src="scripts/date.js"></script>
+    <script src="scripts/banner.js"></script>
+  </body>
 </html>
