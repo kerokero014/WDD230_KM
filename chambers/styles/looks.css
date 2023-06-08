@@ -91,14 +91,79 @@ main {
     "news"
     "spotlights";
 }
+/* --------- Join styles ----------*/
+
+#join-main h1 {
+  font-family: "Nanum Myeongjo", serif;
+  text-align: center;
+}
+
+#join-main {
+  display: block;
+}
+#join-main div {
+  box-shadow: none;
+}
+#join-main form fieldset {
+  border-radius: 4px;
+  border: 1px solid white;
+  margin: 2rem 2%;
+  padding: 2% 1rem;
+}
+#join-main form legend {
+  color: white;
+  padding: 0 0.5rem;
+  margin: 0 1rem;
+}
+#join-main form label.top,
+#join-main form #membership-div {
+  display: block;
+  padding-top: 1rem;
+  font-size: 1rem;
+}
+#join-main form label.top input,
+#join-main form label.top textarea {
+  display: block;
+  font-size: 1rem;
+  padding: 0.75rem;
+  color: white;
+  border-radius: 4px;
+  border: 1px solid #999;
+  background-color: rgb(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 20rem;
+  font-family: "Nanum Myeongjo", serif;
+}
+#join-main form label.sbs {
+  display: block;
+  padding: 0.75rem 0;
+  color: white;
+  font-family: "Nanum Myeongjo", serif;
+}
+#join-main form input.submitBtn {
+  background-color: #46595a;
+  color: black;
+  font-family: "Nanum Myeongjo", serif;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 20rem;
+  font-weight: bold;
+  padding: 0.75rem 5rem;
+  margin: 0 0 1rem 3%;
+}
+.member-benefits {
+  display: none;
+}
 
 /*--------------Main  Discover----------------*/
+
 #last-visit {
   background-color: #46595a;
   text-align: center;
   font-family: "Lora", serif;
-  color:white;
+  color: white;
 }
+
 #discover-main div {
   background-color: #46595a;
 }
@@ -121,7 +186,7 @@ main {
   text-align: center;
 }
 #discover-main div p {
-  font-family:"Comfortaa", cursive;
+  font-family: "Comfortaa", cursive;
   text-align: center;
   margin: 16px;
 }
