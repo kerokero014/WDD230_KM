@@ -133,6 +133,7 @@
   }
   .member-benefits li {
     font-family: "Lora", serif;
+    margin:11px;
   }
   #join-main form fieldset:nth-child(2) div:nth-child(3) {
     grid-column: 4;
