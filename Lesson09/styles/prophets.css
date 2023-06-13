@@ -2,7 +2,7 @@
 
 header h1 {
     font-size: 40px;
-    color: #4d4d96;
+    color: #523A00;
     font-weight: bold;
     text-align: center;
     font-family: 'Merriweather', 'serif';
@@ -11,7 +11,7 @@ header h1 {
 
 h2 {
     font-size: 30px;
-    color: #003F87;
+    color: #523A00;
     font-weight: bold;
     padding-top: 15px;
     margin-top: 5px;
@@ -32,13 +32,15 @@ main {
     padding: 10px;
     margin: 10px;
     margin-bottom: 25px;
+    border-radius: 0.5em;
 }
 
 section {
-    background-color: #cec8ef;
+    background-color: #A4AB9B;
     border: solid black 1px;
     margin: 5px;
     padding: 10px;
+    border-radius: 0.5em;
 }
 
 p {
