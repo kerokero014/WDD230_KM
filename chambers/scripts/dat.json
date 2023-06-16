@@ -1,6 +1,68 @@
 {
-  "companyName": "Top Golf Vineyard",
-  "compLocation": "484 N Entertainment Way, Vineyard, UT 84059",
-  "openHour": "10AM",
-  "ClosingHour": "11PM"
+  "stores": [
+    {
+      "image": "https://s3.topgolf.com/gallery/119572/23492_1686058127_full.jpg?resize.width=1600&resize.height=800&resize.method=cover",
+      "companyName": "Top Golf Vineyard",
+      "compLocation": "484 N Entertainment Way, Vineyard, UT 84059",
+      "hours" : "10AM-11PM",
+      "phone": "#"
+    },
+    {
+      "image": "https://provobeach.com/wp-content/uploads/2017/05/l.png",
+      "companyName": "Provo Beach",
+      "compLocation": "4801 N University Ave #210, Provo, UT 84604",
+      "hours": "11AM-9PM",
+      "phone": "#"
+    },
+    {
+      "image":"https://scera.org/wp-content/themes/scera/images/logo.png",
+      "companyName":"Scera Shell Outdoor Theather",
+      "compLocation":"600 S 400 E, Orem, UT 84058",
+      "hours": "8PM",
+      "phone": "#"
+      
+    },
+    {
+      "image":"<",
+      "companyName":"<",
+      "compLocation":"<",
+      "hours":"<",
+      "phone": "#"
+    },
+    {
+      "image":"<",
+      "companyName":"<",
+      "compLocation":"<",
+      "hours":"<",
+      "phone": "#"
+    },
+    {
+      "image":"<",
+      "companyName":"<",
+      "compLocation":"<",
+      "hours":"<",
+      "phone": "#"
+    },
+    {
+      "image":"<",
+      "companyName":"<",
+      "compLocation":"<",
+      "hours":"<",
+      "phone": "#"
+    },
+    {
+      "image":"<",
+      "companyName":"<",
+      "compLocation":"<",
+      "hours":"<",
+      "phone": "#"
+    },
+    {
+      "image":"<",
+      "companyName":"<",
+      "compLocation":"<",
+      "hours":"<",
+      "phone": "#"
+    }
+  ]
 }
