@@ -1,4 +1,5 @@
-const url = "https://kerokero014.github.io/WDD230_KM/chambers/scripts/data.json";
+const url =
+  "https://kerokero014.github.io/WDD230_KM/chambers/scripts/data.json";
 
 async function getCompaniesData() {
   const response = await fetch(url);
@@ -10,7 +11,7 @@ async function getCompaniesData() {
 getCompaniesData();
 
 const displayStore = (stores) => {
-  const cards = document.querySelector("div#cards");
+  const cards = document.querySelector("div.cards");
 
   stores.forEach((stores) => {
     let card = document.createElement("section");
@@ -25,17 +26,10 @@ const displayStore = (stores) => {
     phone.textContent = `${stores.phone}`;
     weburl.textContent = `${stores.weburl}`;
 
-    logourl.setAttribute('src', stores.logourl);
-    logourl.setAttribute('alt', `${stores.companyName} logo`);
-    logourl.setAttribute('loading', 'lazy');
+    logourl.setAttribute("src", stores.logourl);
+    logourl.setAttribute("alt", `${stores.companyName} logo`);
+    logourl.setAttribute("loading", "lazy");
 
-
-    ///address.textContent = `${stores.compLocation}`;
-    ///phone.textContent = `${stores.phone}`;
-    ///companyName.innerHTML = `<strong>${stores.companyName}</strong>`;
-///
-    ///img.setAttribute("src", stores.logourl);
-    ///logourl.setAttribute("alt", `Company logo of ${stores.name}`);
     card.appendChild(h2);
     card.appendChild(image);
     card.appendChild(companyName);
@@ -44,11 +38,11 @@ const displayStore = (stores) => {
 
     cards.appendChild(card);
   });
-}
+};
 
 const gridbutton = document.querySelector("#grid-button");
 const listbutton = document.querySelector("#list-button");
-const display = document.querySelector("#company-cards");
+const display = document.querySelector(".cards");
 
 gridbutton.addEventListener("click", () => {
   display.classList.add("grid");
