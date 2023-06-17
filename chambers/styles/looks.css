@@ -432,7 +432,7 @@ main div {
   font-family: "Lora", serif;
 }
 #direct_main div.list section:nth-child(odd) {
-  background-color: #46595a;
+  background-color: #506568;
 }
 #direct_main div.list section:nth-child(odd) a {
   color: rgb(4, 61, 4);

@@ -29,8 +29,9 @@ const displayStore = (stores) => {
     logourl.setAttribute("alt", `${store.companyName} logo`);
     logourl.setAttribute("loading", "lazy");
 
-    card.appendChild(h2);
+    
     card.appendChild(logourl);
+    card.appendChild(h2);
     card.appendChild(address);
     card.appendChild(phone);
 
