@@ -1,4 +1,4 @@
-const url = "scripts/data.json";
+const url = "https://kerokero014.github.io/WDD230_KM/chambers/scripts/data.json";
 
 async function getCompaniesData() {
   const response = await fetch(url);
@@ -6,7 +6,10 @@ async function getCompaniesData() {
   //console.table(data.stores);
   displayStores(data.stores);
 }
-function displayStores(stores) {
+
+getCompaniesData();
+
+const displayStore = (stores) => {
   const cards = document.querySelector("div#cards");
 
   stores.forEach((stores) => {
@@ -14,15 +17,26 @@ function displayStores(stores) {
     let logourl = document.createElement("img");
     let address = document.createElement("p");
     let phone = document.createElement("p");
-    let companyName = document.createElement("h2");
+    let weburl = document.createElement("a");
+    let h2 = document.createElement("h2");
 
+    h2.textContent = `${stores.companyName}`;
     address.textContent = `${stores.compLocation}`;
     phone.textContent = `${stores.phone}`;
-    companyName.innerHTML = `<strong>${stores.companyName}</strong>`;
+    weburl.textContent = `${stores.weburl}`;
 
-    img.setAttribute("src", stores.logourl);
-    logourl.setAttribute("alt", `Company logo of ${stores.name}`);
+    logourl.setAttribute('src', stores.logourl);
+    logourl.setAttribute('alt', `${stores.companyName} logo`);
+    logourl.setAttribute('loading', 'lazy');
 
+
+    ///address.textContent = `${stores.compLocation}`;
+    ///phone.textContent = `${stores.phone}`;
+    ///companyName.innerHTML = `<strong>${stores.companyName}</strong>`;
+///
+    ///img.setAttribute("src", stores.logourl);
+    ///logourl.setAttribute("alt", `Company logo of ${stores.name}`);
+    card.appendChild(h2);
     card.appendChild(image);
     card.appendChild(companyName);
     card.appendChild(compLocation);
@@ -31,7 +45,7 @@ function displayStores(stores) {
     cards.appendChild(card);
   });
 }
-getCompaniesData();
+
 
 const gridbutton = document.querySelector("#grid-button");
 const listbutton = document.querySelector("#list-button");
