@@ -4,7 +4,7 @@ const url =
 async function getCompaniesData() {
   const response = await fetch(url);
   const data = await response.json();
-  //console.table(data.stores);
+  console.table(data.stores);
   displayStore(data.stores);
 }
 
