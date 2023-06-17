@@ -32,7 +32,6 @@ const displayStore = (stores) => {
 
     card.appendChild(h2);
     card.appendChild(logourl);
-    card.appendChild(companyName);
     card.appendChild(compLocation);
     card.appendChild(phone);
 
