@@ -1,5 +1,4 @@
-const url =
-  "https://kerokero014.github.io/WDD230_KM/chambers/scripts/data.json";
+const url = "https://kerokero014.github.io/WDD230_KM/chambers/scripts/data.json";
 
 async function getCompaniesData() {
   const response = await fetch(url);
