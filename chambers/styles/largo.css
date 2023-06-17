@@ -77,6 +77,16 @@
     font-size: 38px;
   }
 
+  /*-------discovery main-------*/
+
+  #direct_main div.list section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+  }
+  #direct_main div.list section p:nth-child(4) {
+    text-align: center;
+  }
+
   /*---------footer-----------------*/
   footer img {
     width: 180px;
@@ -133,7 +143,7 @@
   }
   .member-benefits li {
     font-family: "Lora", serif;
-    margin:11px;
+    margin: 11px;
   }
   #join-main form fieldset:nth-child(2) div:nth-child(3) {
     grid-column: 4;

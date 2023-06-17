@@ -355,7 +355,7 @@ main {
 .spots-contact-details {
   border-top: 1px solid black;
   margin: auto;
-  font-family: "Montserrat", serif;
+  font-family: "Lora", serif;
   box-shadow: none;
 }
 
@@ -373,6 +373,69 @@ main div {
   border: 1px solid gray;
   margin: 0.3em;
   padding: 5em;
+}
+
+/*------Main Directory------*/
+#direct_main {
+  display: block;
+}
+
+#direct_main h1 {
+  font-family: "Comfortaa", cursive;
+  text-align: center;
+}
+
+#direct_main #menu {
+  display: flex;
+  justify-content: center;
+  box-shadow: none;
+}
+
+#direct_main #menu button {
+  margin-right: 1rem;
+  padding: 1rem;
+  font-family: "Roboto Slab", sans-serif;
+  background-color: lightgray;
+}
+
+#direct_main div.grid {
+  box-shadow: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  text-align: center;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+#direct_main div.grid img {
+  width: 55%;
+}
+
+#direct_main div.grid section {
+  margin: 1rem;
+  box-shadow: -5px 5px 8px black;
+  padding: 1rem;
+}
+#direct_main div.list {
+  display: flex;
+  flex-direction: column;
+  box-shadow: none;
+}
+#direct_main div.list img {
+  display: none;
+}
+#direct_main div.list section {
+  font-family: "Lora", serif;
+  padding: 8px;
+  margin: 8px;
+}
+#direct_main div.list section strong {
+  font-family: "Lora", serif;
+}
+#direct_main div.list section:nth-child(odd) {
+  background-color: #46595a;
+}
+#direct_main div.list section:nth-child(odd) a {
+  color: rgb(4, 61, 4);
 }
 
 /* FOoter------------------*/
