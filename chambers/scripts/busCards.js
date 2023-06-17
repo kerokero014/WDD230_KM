@@ -34,7 +34,7 @@ const displayStore = (stores) => {
     card.appendChild(h2);
     card.appendChild(address);
     card.appendChild(phone);
-
+    card.appendChild(weburl);
     cards.appendChild(card);
   });
 };
