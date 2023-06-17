@@ -4,7 +4,7 @@ const url =
 async function getCompaniesData() {
   const response = await fetch(url);
   const data = await response.json();
-  console.table(data.stores);
+  //console.table(data.stores);
   displayStore(data.stores);
 }
 
@@ -31,7 +31,7 @@ const displayStore = (stores) => {
     logourl.setAttribute("loading", "lazy");
 
     card.appendChild(h2);
-    card.appendChild(image);
+    card.appendChild(logourl);
     card.appendChild(companyName);
     card.appendChild(compLocation);
     card.appendChild(phone);

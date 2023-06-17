@@ -1,4 +1,3 @@
-
 const today = new Date(document.lastModified);
 const Annee = today.getFullYear();
 const hueres = ('0' + today.getHours()).slice(-2);
