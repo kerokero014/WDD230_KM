@@ -46,7 +46,6 @@ const displayStore = (stores) => {
   });
 }
 
-
 const gridbutton = document.querySelector("#grid-button");
 const listbutton = document.querySelector("#list-button");
 const display = document.querySelector("#company-cards");
