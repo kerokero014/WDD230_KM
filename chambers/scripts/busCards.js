@@ -11,7 +11,7 @@ async function getCompaniesData() {
 getCompaniesData();
 
 const displayStore = (stores) => {
-  const cards = document.querySelector("div.cards");
+  const cards = document.querySelector("div#cards");
 
   stores.forEach((stores) => {
     let card = document.createElement("section");
@@ -42,7 +42,7 @@ const displayStore = (stores) => {
 
 const gridbutton = document.querySelector("#grid-button");
 const listbutton = document.querySelector("#list-button");
-const display = document.querySelector(".cards");
+const display = document.querySelector("#cards");
 
 gridbutton.addEventListener("click", () => {
   display.classList.add("grid");
