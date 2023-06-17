@@ -37,7 +37,7 @@ const displayStore = (stores) => {
     card.appendChild(phone);
 
     cards.appendChild(card);
-  });
+  })
 };
 
 const gridbutton = document.querySelector("#grid-button");
