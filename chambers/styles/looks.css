@@ -439,6 +439,30 @@ main div {
   color: white;
 }
 
+/*----------thank you page ---------*/
+
+.thanks_main {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #46595a;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  font-family: "Comfortaa", cursive;
+}
+
+.thanks_main p {
+  color: #adbfb8;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.thanks_main h1 {
+  color: lightgrey;
+}
+
 /* FOoter------------------*/
 
 @media only screen and (max-width: 600px) {
