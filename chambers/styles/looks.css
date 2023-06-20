@@ -442,7 +442,8 @@ main div {
 /*----------thank you page ---------*/
 
 .thanks_main {
-  width: 1000px;
+  width: 500px;
+  height:357px;
   margin: 0 auto;
   background-color: #46595a;
   padding: 20px;
@@ -455,12 +456,13 @@ main div {
 
 .thanks_main p {
   color: #adbfb8;
-  font-size: 18px;
-  margin-top: 10px;
+  font-size: 20px;
+  margin-top: 40px;
 }
 
 .thanks_main h1 {
   color: lightgrey;
+  text-shadow: black;
 }
 
 /* FOoter------------------*/

@@ -150,4 +150,22 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+
+/*----------thank you page ---------*/
+.thanks_main {
+  grid-column: 2;
+  height: auto;
+  width: 1000px;
+  height: 250px;
+}
+
+.thanks_main h1{
+  font-size: 40px;
+}
+.thanks_main p {
+  color: #adbfb8;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
 }

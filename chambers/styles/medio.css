@@ -114,6 +114,13 @@
   #weTempt {
     font-size: 32px;
   }
+
+  /***--------------THank U page--------*/
+
+  .thanks_main {
+    width: 100vw;
+  }
+
   /*-------------------------Footer------------------*/
   footer img {
     width: 130px;
