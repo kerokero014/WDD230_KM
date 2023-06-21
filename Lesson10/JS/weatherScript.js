@@ -12,7 +12,7 @@ async function apiFetch() {
     if (response.ok) {
       const data = await response.json();
       console.log(data); // this is for testing the call
-      // displayResults(data);
+      displayResults(data);
     } else {
       throw Error(await response.text());
     }
@@ -30,5 +30,6 @@ function displayResults(weatherData) {
 
   weatherIcon.setAttribute('src', iconsrc);
   weatherIcon.setAttribute('alt', desc);
-  captionDesc.textContent = desc;
+  captionDesc.textContent = desc.toUpperCase();
+
 }
