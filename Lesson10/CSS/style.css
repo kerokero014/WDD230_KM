@@ -8,7 +8,10 @@ body {
     height: 100%;
 }
 
-body h1{
+body h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-shadow: 2px 2px 8px #003cff;
 }
+
+body p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
