@@ -462,7 +462,7 @@ main div {
 
 .thanks_main h1 {
   color: lightgrey;
-  text-shadow: black;
+  text-shadow:rgba(0, 0, 0, 0.1);
 }
 
 /* FOoter------------------*/
