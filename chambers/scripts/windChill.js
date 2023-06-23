@@ -17,7 +17,11 @@ const windSpeed = document.querySelector("#windSpeed");
 const weatherIcon = document.querySelector("#weather-icon");
 const weatherDesc = document.querySelector("#weStatus");
 
-const url = "https://api.openweathermap.org/data/3.0/onecall?40.2969=33.44&-111.6946=-94.04&appid={359cb46cbdae122f5f73f09a8345faa6}";
+//const apiKey = 'YOUR_API_KEY';
+//const city = 'Lehi';
+//
+
+const url = "https://api.openweathermap.org/data/2.5/weather?q=Orem&appid=4f4706ecdb802d15b52675f2b999b08a";
 
 async function apiFetch() {
     try {
