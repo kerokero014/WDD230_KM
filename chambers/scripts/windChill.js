@@ -1,25 +1,8 @@
 
-//var temp= 75;
-//var wSpeed= 4;
-//var windChill= (35.74 + (0.6215 * temp))-(35.75 * Math.pow(wSpeed,0.16)) + (0.4275*temp*Math.pow(wSpeed,0.16));
-//
-//var windChill= Math.round(windChill);
-//
-//if (temp <= 50 && wSpeed > 3){
-//    document.getElementById("windChill").innerHTML= windChill;
-//}
-//else{ 
-//    document.getElementById("windChill").textContent =  "N/A"
-//}
-
 const temperature = document.querySelector("#weTempt");
 const windSpeed = document.querySelector("#windSpeed");
 const weatherIcon = document.querySelector("#weather-icon");
 const weatherDesc = document.querySelector("#weStatus");
-
-//const apiKey = 'YOUR_API_KEY';
-//const city = 'Lehi';
-//
 
 const url = "https://api.openweathermap.org/data/2.5/weather?q=Orem&appid=4f4706ecdb802d15b52675f2b999b08a";
 
@@ -60,8 +43,8 @@ function displayResults(weatherData) {
     windSpeed.textContent = wSpeed.toFixed(1);
 
     if (toFahr <= 50 && toMiles > 3) {
-        windChill = 35.74 + (0.6215 * toFahr) - (35.75 * toMiles**0.16) + (0.4275 * toFahr * toMiles**0.16);
-        toCels = (windChill - 32) / 1.8;
+        var windChill = 35.74 + (0.6215 * toFahr) - (35.75 * toMiles**0.16) + (0.4275 * toFahr * toMiles**0.16);
+        var toCels = (windChill - 32) / 1.8;
         document.querySelector("#windChill").textContent = toCels.toFixed(1);
     }
     else {
