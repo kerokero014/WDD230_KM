@@ -22,7 +22,7 @@
   #spotlights {
     flex-direction: column;
   }
-  main {
+  .main-index {
     grid-template-columns: 1fr 2fr 1fr;
   }
   #hero {
@@ -80,7 +80,7 @@
 
   /*-------------TU------------------*/
 
-  #TU-main{
+  #TU-main {
     margin-top: 100px;
     margin-bottom: 105px;
   }
@@ -93,6 +93,39 @@
   }
   #direct_main div.list section p:nth-child(4) {
     text-align: center;
+  }
+
+  /*-------Contact Main-----------*/
+
+  .container-contc {
+    position: relative;
+    width: 100%;
+    min-height: 100hv;
+    padding: 2rem;
+    background-color: white;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .form {
+    width: 100%;
+    max-width: 820px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact-info {
+    background-color: green;
+  }
+  .contact-form {
+    background-color: red;
   }
 
   /*---------footer-----------------*/
@@ -159,21 +192,20 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
-/*----------thank you page ---------*/
-.thanks_main {
-  grid-column: 2;
-  height: auto;
-  width: 1000px;
-  height: 250px;
-}
+  /*----------thank you page ---------*/
+  .thanks_main {
+    grid-column: 2;
+    height: auto;
+    width: 1000px;
+    height: 250px;
+  }
 
-.thanks_main h1{
-  font-size: 40px;
-}
-.thanks_main p {
-  color: #adbfb8;
-  font-size: 25px;
-  margin-top: 10px;
-}
-
+  .thanks_main h1 {
+    font-size: 40px;
+  }
+  .thanks_main p {
+    color: #adbfb8;
+    font-size: 25px;
+    margin-top: 10px;
+  }
 }

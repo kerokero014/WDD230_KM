@@ -50,7 +50,7 @@
 /*-----------------------main -------------------------*/
 
 @media only screen and (min-width: 600px) {
-  main {
+  .main-index {
     grid-template-areas:
       "hero hero hero"
       "news news news"
