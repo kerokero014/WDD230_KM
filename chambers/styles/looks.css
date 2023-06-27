@@ -361,13 +361,12 @@ header {
 
 /* --------------------*/
 
-main div {
+.main-index div { 
   background-color: #46595a;
   padding: 1em;
   /*border: 1px solid gray;*/
   font-family: "Lora", serif;
   color: white;
-  margin: 0.03em;
 }
 #spotlights div {
   border: 1px solid gray;
