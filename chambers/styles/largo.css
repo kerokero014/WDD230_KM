@@ -78,6 +78,13 @@
     font-size: 38px;
   }
 
+  /*-------------TU------------------*/
+
+  #TU-main{
+    margin-top: 100px;
+    margin-bottom: 105px;
+  }
+
   /*-------discovery main-------*/
 
   #direct_main div.list section {
