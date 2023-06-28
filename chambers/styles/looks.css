@@ -497,13 +497,13 @@ header {
 
 .contact {
   padding: 40px;
-  background: white;
+  background: #46595a;
   box-shadow: 0 5px 35px rgba(0, 0, 0, 0.15);
 }
 
 
 .contact h2 {
-  color: #46595a;
+  color: whitesmoke;
   font-weight: 500;
   font-size: 1.4em;
   margin-bottom: 10px;
@@ -531,7 +531,7 @@ header {
   width: 100%;
 }
 .inputBox span {
-  color: #46595a; /*color of letters*/
+  color:whitesmoke; /*color of letters*/
   margin-top: 10px;
   margin-bottom: 5px;
   font-weight: 500;
@@ -552,8 +552,8 @@ header {
   margin-bottom: 10px;
 }
 .inputBox input[type="submit"]{
-  background: #adbfb8;
-  color: #46595a;
+  background: #7E94A0;
+  color: whitesmoke;
   border: none;
   font-size: 1.1em;
   max-width: 120px;
