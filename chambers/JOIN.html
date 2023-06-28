@@ -1,191 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/normalize.css" />
-    <link rel="stylesheet" href="styles/looks.css" />
-    <link rel="stylesheet" href="styles/medio.css" />
-    <link rel="stylesheet" href="styles/largo.css" />
-    <link rel="icon" href="favicon(1).ico" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lora&family=Nanum+Myeongjo&display=swap"
-      rel="stylesheet"
-    />
-    <title>Join Chambers Page - Kevin Mendoza</title>
-  </head>
 
-  <body>
-    <div id="banner"></div>
-    <header>
-      <a href="index.html" class="logo">
-        <img
-          src="images/UV-Chamber-Primarylogo.webp"
-          alt="logo for the Chambers Commerce"
-        />
-      </a>
-      <ul class="navbar">
-        <li><a href="discover.html">Discover</a></li>
-        <li><a href="JOIN.html">Join</a></li>
-        <li><a href="directory.html">Directory</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-      <div class="main">
-        <a href="#"><img src="images/instagram.png" alt="instagram-logo" /></a>
-        <a href="#"><img src="images/LinkedIn.png" alt="LinkedIn-logo" /></a>
-        <div class="bx bx-menu" id="menu-icon">
-          <button id="hamButton">&#9776;</button>
-        </div>
-        <script src="scripts/Hammenu.js"></script>
-        <script src="scripts/date.js"></script>
-      </div>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles/normalize.css" />
+  <link rel="stylesheet" href="styles/looks.css" />
+  <link rel="stylesheet" href="styles/medio.css" />
+  <link rel="stylesheet" href="styles/largo.css" />
+  <link rel="icon" href="favicon(1).ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lora&family=Nanum+Myeongjo&display=swap"
+    rel="stylesheet" />
+  <title>Join Chambers Page - Kevin Mendoza</title>
+</head>
 
-    <main id="join-main">
-      <h1>New Member Application</h1>
-      <form method="get" action="TU.html">
-        <fieldset>
-          <legend>Applicant Information</legend>
-          <label class="top"
-            >First Name*<input type="text" name="fname" required
-          /></label>
-          <label class="top"
-            >Last Name*<input type="text" name="lname" required
-          /></label>
-          <label class="top"
-            >Business Position<input
-              type="text"
-              name="bposition"
-              pattern="^[a-zA-Z\-\s]+$"
-              minlength="7"
-              title="Please fill out this field. Letters, hyphens and spaces are accepted. No numbers."
-          /></label>
-          <label class="top"
-            >Email*<input
-              type="email"
-              name="email"
-              placeholder="emailname@gmail.com"
-              required
-          /></label>
-          <label class="top"
-            >Cell Phone Number*<input
-              type="tel"
-              name="celnum"
-              placeholder="09123456789"
-              required
-          /></label>
-        </fieldset>
-        <fieldset id="business-info-fieldset">
-          <legend>Business Information</legend>
-          <div>
-            <label class="top"
-              >Business Name:<input type="text" name="bname" required
-            /></label>
-            <div id="membership-div">Membership Level Selection:</div>
-            <label class="sbs"
-              ><input type="radio" name="membership" value="nonprofit" /> NP
-              Membership</label
-            >
-            <label class="sbs"
-              ><input type="radio" name="membership" value="bronze" /> Bronze
-              Membership</label
-            >
-            <label class="sbs"
-              ><input type="radio" name="membership" value="silver" /> Silver
-              Membership</label
-            >
-            <label class="sbs"
-              ><input type="radio" name="membership" value="gold" /> Gold
-              Membership</label
-            >
-            <label class="top" for="bdescription"
-              >Business Description<textarea
-                id="bdescription"
-                name="bdescription"
-                rows="4"
-                cols="50"
-              ></textarea>
-            </label>
-            <input type="hidden" id="date" name="date" />
-          </div>
-          <div>
-            <fieldset class="member-benefits" id="np">
-              <legend>NP Member Benefits</legend>
-              <h2>Free</h2>
-              <ul>
-                <li>★ Referrals</li>
-                <li>★ Networking out of State</li>
-              </ul>
-            </fieldset>
-            <fieldset class="member-benefits" id="bronze">
-              <legend>Bronze Member Benefits</legend>
-              <h2>$4.99</h2>
-              <ul>
-                <li>★ Referrals</li>
-                <li>★ Networking out of State</li>
-                <li>★ Credibilty and Verification</li>
-                <li>★ Community Feedback</li>
-                <li>★ Priority in Google</li>
-                <li>★ Discounts</li>
-              </ul>
-            </fieldset>
-            <fieldset class="member-benefits" id="silver">
-              <legend>Silver Member Benefits</legend>
-              <h2>$18.99</h2>
-              <ul>
-                <li>★ Referrals</li>
-                <li>★ Networking out of State</li>
-                <li>★ Credibilty and Verification</li>
-                <li>★ Community Feedback</li>
-                <li>★ Priority in Google</li>
-                <li>★ Discounts</li>
-                <li>★ Business Support</li>
-              </ul>
-            </fieldset>
-            <fieldset class="member-benefits" id="gold">
-              <legend>Gold Member Benefits</legend>
-              <h2>$40.00</h2>
-              <ul>
-                <li>★ Referrals</li>
-                <li>★ Networking out of State</li>
-                <li>★ Credibilty and Verification</li>
-                <li>★ Community Feedback</li>
-                <li>★ Priority in Google</li>
-                <li>★ Discounts</li>
-                <li>★ Business Support</li>
-                <li>★ Web Development Assistance</li>
-                <li>★ Cybersecurity Sevice</li>
-                <li>★ Google Ads</li>
-              </ul>
-            </fieldset>
-          </div>
-        </fieldset>
-        <input class="submitBtn" type="submit" value="Join the Chamber" />
-      </form>
-    </main>
+<body>
+  <div id="banner"></div>
+  <header>
+    <a href="index.html" class="logo">
+      <img src="images/UV-Chamber-Primarylogo.webp" alt="logo for the Chambers Commerce" />
+    </a>
+    <ul class="navbar">
+      <li><a href="discover.html">Discover</a></li>
+      <li><a href="JOIN.html">Join</a></li>
+      <li><a href="directory.html">Directory</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="main">
+      <a href="#"><img src="images/instagram.png" alt="instagram-logo" /></a>
+      <a href="#"><img src="images/LinkedIn.png" alt="LinkedIn-logo" /></a>
+      <div class="bx bx-menu" id="menu-icon">
+        <button id="hamButton">&#9776;</button>
+      </div>
+      <script src="scripts/Hammenu.js"></script>
+      <script src="scripts/date.js"></script>
+    </div>
+  </header>
 
-    <footer>
-      <div class="wholefoot">
-        <img src="images/UV-Chamber-Primarylogo.webp" alt="logo for page" />
-        <div class="location">
-          <h1>Utah Valley Chamber Commerce</h1>
-          <p>Utah Valley, Utah</p>
+  <main id="join-main">
+    <h1>New Member Application</h1>
+    <form method="get" action="TU.html">
+      <fieldset>
+        <legend>Applicant Information</legend>
+        <label class="top">First Name*<input type="text" name="fname" required /></label>
+        <label class="top">Last Name*<input type="text" name="lname" required /></label>
+        <label class="top">Business Position<input type="text" name="bposition" pattern="^[a-zA-Z\-\s]+$" minlength="7"
+            title="Please fill out this field. Letters, hyphens and spaces are accepted. No numbers." /></label>
+        <label class="top">Email*<input type="email" name="email" placeholder="emailname@gmail.com" required /></label>
+        <label class="top">Cell Phone Number*<input type="tel" name="celnum" placeholder="09123456789"
+            required /></label>
+      </fieldset>
+      <fieldset id="business-info-fieldset">
+        <legend>Business Information</legend>
+        <div>
+          <label class="top">Business Name:<input type="text" name="bname" required /></label>
+          <div id="membership-div">Membership Level Selection:</div>
+          <label class="sbs"><input type="radio" name="membership" value="nonprofit" /> NP
+            Membership</label>
+          <label class="sbs"><input type="radio" name="membership" value="bronze" /> Bronze
+            Membership</label>
+          <label class="sbs"><input type="radio" name="membership" value="silver" /> Silver
+            Membership</label>
+          <label class="sbs"><input type="radio" name="membership" value="gold" /> Gold
+            Membership</label>
+          <label class="top" for="bdescription">Business Description<textarea id="bdescription" name="bdescription"
+              rows="4" cols="50"></textarea>
+          </label>
+          <input type="hidden" id="date" name="date" />
         </div>
-        <div class="Coinfo">
-          <h2>utahvalleyChamb@utah.org</h2>
-          <p>801-225-0000</p>
-          <p>Location Map</p>
+        <div>
+          <fieldset class="member-benefits" id="np">
+            <legend>NP Member Benefits</legend>
+            <h2>Free</h2>
+            <ul>
+              <li>★ Referrals</li>
+              <li>★ Networking out of State</li>
+            </ul>
+          </fieldset>
+          <fieldset class="member-benefits" id="bronze">
+            <legend>Bronze Member Benefits</legend>
+            <h2>$4.99</h2>
+            <ul>
+              <li>★ Referrals</li>
+              <li>★ Networking out of State</li>
+              <li>★ Credibilty and Verification</li>
+              <li>★ Community Feedback</li>
+              <li>★ Priority in Google</li>
+              <li>★ Discounts</li>
+            </ul>
+          </fieldset>
+          <fieldset class="member-benefits" id="silver">
+            <legend>Silver Member Benefits</legend>
+            <h2>$18.99</h2>
+            <ul>
+              <li>★ Referrals</li>
+              <li>★ Networking out of State</li>
+              <li>★ Credibilty and Verification</li>
+              <li>★ Community Feedback</li>
+              <li>★ Priority in Google</li>
+              <li>★ Discounts</li>
+              <li>★ Business Support</li>
+            </ul>
+          </fieldset>
+          <fieldset class="member-benefits" id="gold">
+            <legend>Gold Member Benefits</legend>
+            <h2>$40.00</h2>
+            <ul>
+              <li>★ Referrals</li>
+              <li>★ Networking out of State</li>
+              <li>★ Credibilty and Verification</li>
+              <li>★ Community Feedback</li>
+              <li>★ Priority in Google</li>
+              <li>★ Discounts</li>
+              <li>★ Business Support</li>
+              <li>★ Web Development Assistance</li>
+              <li>★ Cybersecurity Sevice</li>
+              <li>★ Google Ads</li>
+            </ul>
+          </fieldset>
         </div>
+      </fieldset>
+      <input class="submitBtn" type="submit" value="Join the Chamber" />
+    </form>
+  </main>
+
+  <footer>
+    <div class="wholefoot">
+      <img src="images/UV-Chamber-Primarylogo.webp" alt="logo for page" />
+      <div class="location">
+        <h1>Utah Valley Chamber Commerce</h1>
+        <p>Utah Valley, Utah</p>
       </div>
-      <div class="update">
-        <h1>&copy; <span id="yearPlaceholder"></span> | Kevin J. Mendoza | Rexburg</h1>
-        <p>Last Updated: <span id="lastUpdatedPlaceholder"></span></p>
+      <div class="Coinfo">
+        <h2>utahvalleyChamb@utah.org</h2>
+        <p>801-225-0000</p>
+        <p>Location Map</p>
       </div>
-    </footer>
-    <script src="scripts/date.js"></script>
-    <script src="scripts/banner.js"></script>
-  </body>
+    </div>
+    <div class="update">
+      <h1>&copy; <span id="yearPlaceholder"></span> | Kevin J. Mendoza | Rexburg</h1>
+      <p>Last Updated: <span id="lastUpdatedPlaceholder"></span></p>
+    </div>
+  </footer>
+  <script src="scripts/date.js"></script>
+  <script src="scripts/banner.js"></script>
+</body>
+
 </html>
