@@ -463,6 +463,170 @@ header {
   color: lightgrey;
 }
 
+
+/* ------ Contact Us--------*/ 
+.contactUs {
+  position: relative;
+  width: 100%;
+  padding: 40px 100px;
+}
+
+.contactUs .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+
+.contactUs .title h2 {
+  color: white;
+  font-weight: 500;
+}
+
+.form {
+  grid-area: form;
+}
+
+.info {
+  grid-area: info;
+}
+
+.map {
+  grid-area: map;
+}
+
+.contact {
+  padding: 40px;
+  background: white;
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.15);
+}
+
+
+.contact h2 {
+  color: #46595a;
+  font-weight: 500;
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+/*----form---*/
+
+.formBox {
+  position: relative;
+  width: 100%;
+}
+
+.formBox .row50 {
+  display: flex;
+  gap: 20px;
+}
+
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 50%;
+}
+.formBox .row100 .inputBox {
+  width: 100%;
+}
+.inputBox span {
+  color: #46595a; /*color of letters*/
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+.inputBox input {
+  padding: 10px;
+  font-size: 1.1em;
+  outline: none;
+  border: 1px solid #333;
+}
+.inputBox textarea {
+  padding: 10px;
+  font-size: 1.1em;
+  outline: none;
+  border: 1px solid #333;
+  resize: none;
+  min-height: 220px;
+  margin-bottom: 10px;
+}
+.inputBox input[type="submit"]{
+  background: #adbfb8;
+  color: #46595a;
+  border: none;
+  font-size: 1.1em;
+  max-width: 120px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 14px 15px;
+}
+.inputBox ::placeholder{
+  cursor: auto;
+}
+
+/*-- info Box --*/
+.info{
+  background: #46595a;
+}
+.info h2{
+  color:white;
+}
+.info .infoBox div{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.info .infoBox div span{
+  min-width: 40px;
+  height: 40px;
+  color: whitesmoke;
+  background-color: #adbfb8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:1.5em;
+  border-radius: 50%;
+  margin-right: 15px;
+}  
+.info .infoBox div p{
+  color: whitesmoke;
+  font-size: 1.1em;
+
+}
+.info .infoBox div a{
+  color: whitesmoke;
+  text-emphasis: none;
+  font-size: 1.1em;
+}
+.sci{
+  margin-top: 40px;
+  display: flex;
+}
+.sci li{
+  list-style: none;
+  margin-right:15px;
+}
+.sci li a{
+  color:whitesmoke;
+  font-size: 2em;
+  color: #ccc;
+}
+.sci li a:hover{
+  color:#fff
+}
+
+/* --- Map ---- */ 
+
+.map{
+  padding: 0;
+}
+.map iframe{
+  width: 100%;
+  height: 100%;
+}
+
+
 /* FOoter------------------*/
 
 @media only screen and (max-width: 600px) {
