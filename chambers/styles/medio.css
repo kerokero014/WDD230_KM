@@ -39,13 +39,14 @@
     padding: 20px;
   }
   .box {
+    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    grid-area: 
-    "form" 
-    "info" 
-    "map";
-  }
+    grid-template-areas:
+      "form"
+      "info"
+      "map";
+  }  
   .formBox .row50{
     display: flex;
     gap:0;
