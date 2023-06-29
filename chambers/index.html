@@ -1,161 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <title>Chamber Home Page - Kevin M</title>
-    <link rel="stylesheet" href="styles/normalize.css" />
-    <link rel="stylesheet" href="styles/looks.css" />
-    <link rel="stylesheet" href="styles/medio.css" />
-    <link rel="stylesheet" href="styles/largo.css" />
-    <link rel="icon" href="favicon(1).ico" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lora&family=Nanum+Myeongjo&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <div id="banner"></div>
-    <header>
-      <a href="index.html" class="logo">
-        <img
-          src="images/UV-Chamber-Primarylogo.webp"
-          alt="logo for the Chambers Commerce"
-        />
-      </a>
-      <ul class="navbar">
-        <li><a href="discover.html">Discover</a></li>
-        <li><a href="JOIN.html">Join</a></li>
-        <li><a href="directory.html">Directory</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-      <div class="main">
-        <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram-logo" /></a>
-        <a href="https://www.LinkedIn.com/"><img src="images/LinkedIn.png" alt="LinkedIn-logo" /></a>
-        <div class="bx bx-menu" id="menu-icon">
-          <button id="hamButton">&#9776;</button>
-        </div>
-        <script src="scripts/Hammenu.js"></script>
-        <script src="scripts/date.js"></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <title>Chamber Home Page - Kevin M</title>
+  <link rel="stylesheet" href="styles/normalize.css" />
+  <link rel="stylesheet" href="styles/looks.css" />
+  <link rel="stylesheet" href="styles/medio.css" />
+  <link rel="stylesheet" href="styles/largo.css" />
+  <link rel="icon" href="favicon(1).ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lora&family=Nanum+Myeongjo&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div id="banner"></div>
+  <header>
+    <a href="index.html" class="logo">
+      <img src="images/UV-Chamber-Primarylogo.webp" alt="logo for the Chambers Commerce" />
+    </a>
+    <ul class="navbar">
+      <li><a href="discover.html">Discover</a></li>
+      <li><a href="JOIN.html">Join</a></li>
+      <li><a href="directory.html">Directory</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="main">
+      <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram-logo" /></a>
+      <a href="https://www.LinkedIn.com/"><img src="images/LinkedIn.png" alt="LinkedIn-logo" /></a>
+      <div class="bx bx-menu" id="menu-icon">
+        <button id="hamButton">&#9776;</button>
       </div>
-    </header>
-    <main class="main-index">
-      <div id="event">
-        <div id="Tulips">
-          <h1>Tulip Festival</h1>
-          <h2>Thanksgiving Point</h2>
-        </div>
-        <p>Come enjoy of one of the best Fesitval Durign the Summer!</p>
-        <img src="images/Event.jpg" alt="Tulip festival picture" />
+      <script src="scripts/Hammenu.js"></script>
+      <script src="scripts/date.js"></script>
+    </div>
+  </header>
+  <main class="main-index">
+    <div id="event">
+      <div id="Tulips">
+        <h1>Tulip Festival</h1>
+        <h2>Thanksgiving Point</h2>
       </div>
+      <p>Come enjoy of one of the best Fesitval Durign the Summer!</p>
+      <img src="images/Event.jpg" alt="Tulip festival picture" />
+    </div>
 
-      <div id="weather">
-        <h1>Weather</h1>
-        <img src="images/overCast.png" alt="sunny day in utah Valley" id="weather-icon" />
-        <h2 id="weTempt">9&#8451;</h2>
-        <h2 id="weStatus">Overcast</h2>
-        <h3>Wind Speed:<span id="windSpeed"></span>km/h</h3>
-        <h3>Wind Chill: <span id="windChill"></span>&#8451;</h3>
-      </div>
+    <div id="weather">
+      <h1>Weather</h1>
+      <img src="images/overCast.png" alt="sunny day in utah Valley" id="weather-icon" />
+      <h2 id="weTempt">9&#8451;</h2>
+      <h2 id="weStatus">Overcast</h2>
+      <h3>Wind Speed:<span id="windSpeed"></span>km/h</h3>
+      <h3>Wind Chill: <span id="windChill"></span>&#8451;</h3>
+    </div>
 
-      <div id="Join">
-        <button>Join Us!</button>
-        <p>
-          Discover how to join the chamber of commerce and how it will benefit
-          your organization!
-        </p>
-      </div>
+    <div id="Join">
+      <button>Join Us!</button>
+      <p>
+        Discover how to join the chamber of commerce and how it will benefit
+        your organization!
+      </p>
+    </div>
 
-      <div id="hero">
-        <h1>Welcome to Utah Valley</h1>
-        <button>Joint the Chamber</button>
-        <picture>
-          <source
-            media="(max-width: 576px)"
-            srcset="images/small_W576_wdd230-org.jpg"
-          />
-          <source
-            media="(max-width: 1008px)"
-            srcset="images/meduim_1008_wdd230-org.jpg"
-          />
-          <img src="images/wdd230-org.jpg" alt="pictuer of utah valley" />
-        </picture>
-      </div>
+    <div id="hero">
+      <h1>Welcome to Utah Valley</h1>
+      <button>Joint the Chamber</button>
+      <picture>
+        <source media="(max-width: 576px)" srcset="images/small_W576_wdd230-org.jpg" />
+        <source media="(max-width: 1008px)" srcset="images/meduim_1008_wdd230-org.jpg" />
+        <img src="images/wdd230-org.jpg" alt="pictuer of utah valley" />
+      </picture>
+    </div>
 
-      <div id="news">
-        <h1>News Release</h1>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
-          voluptate voluptates quae obcaecati dicta, eaque odit suscipit iste
-          non ex corporis quis, excepturi, at tempore dolore impedit dignissimos
-          minus? Distinctio. lo
-        </p>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
-          voluptate voluptates quae obcaecati dicta, eaque odit suscipit iste
-          non ex corporis quis, excepturi, at tempore dolore impedit dignissimos
-          minus? Distinctio. lo
-        </p>
-      </div>
+    <div id="news">
+      <h1>News Release</h1>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+        voluptate voluptates quae obcaecati dicta, eaque odit suscipit iste
+        non ex corporis quis, excepturi, at tempore dolore impedit dignissimos
+        minus? Distinctio. lo
+      </p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti
+        voluptate voluptates quae obcaecati dicta, eaque odit suscipit iste
+        non ex corporis quis, excepturi, at tempore dolore impedit dignissimos
+        minus? Distinctio. lo
+      </p>
+    </div>
 
-      <div id="spotlights">
-        <div class="spotlight" id="spotlight1">
-          <h1>Provo Beach</h1>
-          <img src="images/ProvoBeach.png" alt="Provo beach picture logo" />
-          <h2>We're Open!</h2>
-          <div class="spots-contact-details">
-            <p>info@provobeach.com</p>
-            <p>801-980-3499</p>
-          </div>
-        </div>
-
-        <div class="spotlight" id="spotlight2">
-          <h1>Century 21</h1>
-          <img src="images/RealCentury21.png" alt="century 21 logo picture" />
-          <h2>Let us help you find your perfect Home</h2>
-          <div class="spots-contact-details">
-            <p>century21@bussiness.org</p>
-            <p>801-555-5454</p>
-          </div>
-        </div>
-
-        <div class="spotlight" id="spotlight3">
-          <h1>Scera Arts</h1>
-          <img src="images/SCERA_Corp-Logo.png" alt="scea arts logo" />
-          <h2>Look for ways to be involved</h2>
-          <div class="spots-contact-details">
-            <p>https://scera.org/</p>
-            <p>801-225-ARTS</p>
-          </div>
+    <div id="spotlights">
+      <div class="spotlight" id="spotlight1">
+        <h1>Provo Beach</h1>
+        <img src="images/ProvoBeach.png" alt="Provo beach picture logo" />
+        <h2>We're Open!</h2>
+        <div class="spots-contact-details">
+          <p>info@provobeach.com</p>
+          <p>801-980-3499</p>
         </div>
       </div>
-    </main>
 
-    <footer>
-      <div class="wholefoot">
-        <img src="images/UV-Chamber-Primarylogo.webp" alt="logo for page" />
-        <div class="location">
-          <h1>Utah Valley Chamber Commerce</h1>
-          <p>Utah Valley, Utah</p>
-        </div>
-        <div class="Coinfo">
-          <h2>utahvalleyChamb@utah.org</h2>
-          <p>801-225-0000</p>
-          <p>Location Map</p>
+      <div class="spotlight" id="spotlight2">
+        <h1>Century 21</h1>
+        <img src="images/RealCentury21.png" alt="century 21 logo picture" />
+        <h2>Let us help you find your perfect Home</h2>
+        <div class="spots-contact-details">
+          <p>century21@bussiness.org</p>
+          <p>801-555-5454</p>
         </div>
       </div>
-      <div class="update">
-        <h1>&copy; <span id="yearPlaceholder"></span> | Kevin J. Mendoza | Rexburg</h1>
-        <p>Last Updated: <span id="lastUpdatedPlaceholder"></span></p>
+
+      <div class="spotlight" id="spotlight3">
+        <h1>Scera Arts</h1>
+        <img src="images/SCERA_Corp-Logo.png" alt="scea arts logo" />
+        <h2>Look for ways to be involved</h2>
+        <div class="spots-contact-details">
+          <p>https://scera.org/</p>
+          <p>801-225-ARTS</p>
+        </div>
       </div>
-    </footer>
-    <script src="scripts/windChill.js"></script>
-    <script src="scripts/date.js"></script>
-    <script src="scripts/banner.js"></script>
-  </body>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wholefoot">
+      <img src="images/UV-Chamber-Primarylogo.webp" alt="logo for page" />
+      <div class="location">
+        <h1>Utah Valley Chamber Commerce</h1>
+        <p>Utah Valley, Utah</p>
+      </div>
+      <div class="Coinfo">
+        <h2>utahvalleyChamb@utah.org</h2>
+        <p>801-225-0000</p>
+        <p>Location Map</p>
+      </div>
+    </div>
+    <div class="update">
+      <h1>
+        &copy; <span id="copyrightYear"></span> | Kevin J. Mendoza | Rexburg
+      </h1>
+      <p>Last Updated&nbsp;<span id="lastUpdatedDate"></span></p>
+    </div>
+  </footer>
+  <script src="scripts/windChill.js"></script>
+  <script src="scripts/date.js"></script>
+  <script src="scripts/banner.js"></script>
+</body>
+
 </html>
