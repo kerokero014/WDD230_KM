@@ -167,7 +167,7 @@ header {
   background-color: #46595a;
 }
 #discover-main img {
-  max-width: 100%;
+  max-width: 80%;
   filter: blur(0em);
   transition: filter 1s;
 }
