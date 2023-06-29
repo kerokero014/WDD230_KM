@@ -67,6 +67,10 @@
     margin: 0 auto;
   }
 
+  #news p{
+    font-size: 21px;
+  }
+
   /* ----------------Main Discver Big page------------*/
 
   #discover-main div {

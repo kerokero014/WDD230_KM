@@ -1,13 +1,13 @@
-const spotlightUrl = "https://kerokero014.github.io/WDD230_KM/chambers/scripts/data.json";
+const spotlightUrl = "";
 
 async function getCompaniesData() {
     const response = await fetch(spotlightUrl);
     const data = await response.json();
     //console.log(data.company);
-    displaySpotlights(data.stores);
+    displaySpotlights(data.company);
     displayMembers(data.member);
 }
-function displaySpotlights(stores) {
+function displaySpotlights(companies) {
     const spotlights = document.querySelector("#spotlights");
 
     const samComp = [0,2,5];
@@ -37,12 +37,13 @@ function displaySpotlights(stores) {
         let div = document.createElement("div");
         let name = document.createElement("h2");
         let logo = document.createElement("img");
+        let catchPhrase = document.createElement("h3");
         let contactDetails = document.createElement("div");
         let email = document.createElement("p");
         let phoneNum = document.createElement("p");
         let link = document.createElement("a");
 
-        name.textContent = `${store[number].name}`;
+        name.textContent = `${companies[number].name}`;
         catchPhrase.textContent = `${companies[number].catchphrase}`;
 
         email.textContent = `${companies[number].email}`;
