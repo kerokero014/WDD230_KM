@@ -4,7 +4,7 @@ const weatherIcon = document.querySelector("#weather-icon");
 const weatherDesc = document.querySelector("#weStatus");
 
 const url =
-  "https://api.openweathermap.org/data/2.5/weather?q=Orem&appid=4f4706ecdb802d15b52675f2b999b08a";
+  "https://api.openweathermap.org/data/2.5/weather?q=Orem&units=metric&appid=4f4706ecdb802d15b52675f2b999b08a";
 
 async function apiFetch() {
   try {
@@ -20,13 +20,13 @@ async function apiFetch() {
     console.log(error);
   }
 }
-
 apiFetch();
 
 function displayResults(weatherData) {
-  temperature.innerHTML = `<strong>${weatherData.main.temp.toFixed(
-    0
-  )}</strong>`;
+  const temperatureCelsius = weatherData.main.temp;
+  const temperatureFahrenheit = (temperatureCelsius * 9/5) + 32;
+
+  temperature.innerHTML = `<strong>${temperatureFahrenheit.toFixed(0)}</strong>°F`;
 
   const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
   const desc = weatherData.weather[0].description;
@@ -35,22 +35,18 @@ function displayResults(weatherData) {
   weatherIcon.setAttribute("alt", desc);
   weatherDesc.textContent = desc.toUpperCase();
 
-  var temp = weatherData.main.temp;
   var wSpeed = weatherData.wind.speed;
-
-  var toFahr = temp * 1.8 + 32;
   var toMiles = wSpeed / 1.609344;
 
-  windSpeed.textContent = wSpeed.toFixed(1);
+  windSpeed.textContent = toMiles.toFixed(1);
 
-  if (toFahr <= 50 && toMiles > 3) {
+  if (temperatureFahrenheit <= 50 && toMiles > 3) {
     var windChill =
       35.74 +
-      0.6215 * toFahr -
+      0.6215 * temperatureFahrenheit -
       35.75 * toMiles ** 0.16 +
-      0.4275 * toFahr * toMiles ** 0.16;
-    var toCels = (windChill - 32) / 1.8;
-    document.querySelector("#windChill").textContent = toCels.toFixed(1);
+      0.4275 * temperatureFahrenheit * toMiles ** 0.16;
+    document.querySelector("#windChill").textContent = windChill.toFixed(1);
   } else {
     document.querySelector("#windChill").textContent = "N/A";
   }
