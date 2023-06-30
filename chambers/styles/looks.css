@@ -320,8 +320,7 @@ header {
 #news h1 {
   text-shadow: 2px 2px 2px black;
 }
---------------------------------*/
-#spotlights {
+--------------------------------*/ #spotlights {
   grid-area: spotlights;
   padding: 1rem;
 }
@@ -356,11 +355,10 @@ header {
   margin: auto;
   font-family: "Lora", serif;
   box-shadow: none;
-
-
+}
 /* --------------------*/
 
-.main-index div { 
+.main-index div {
   background-color: #46595a;
   padding: 1em;
   /*border: 1px solid gray;*/
@@ -441,7 +439,7 @@ header {
 
 .thanks_main {
   width: 400px;
-  height:357px;
+  height: 357px;
   margin: 0 auto;
   background-color: #46595a;
   padding: 20px;
@@ -462,8 +460,7 @@ header {
   color: lightgrey;
 }
 
-
-/* ------ Contact Us--------*/ 
+/* ------ Contact Us--------*/
 .contactUs {
   position: relative;
   width: 100%;
@@ -500,7 +497,6 @@ header {
   box-shadow: 0 5px 35px rgba(0, 0, 0, 0.15);
 }
 
-
 .contact h2 {
   color: whitesmoke;
   font-weight: 500;
@@ -530,7 +526,7 @@ header {
   width: 100%;
 }
 .inputBox span {
-  color:whitesmoke; /*color of letters*/
+  color: whitesmoke; /*color of letters*/
   margin-top: 10px;
   margin-bottom: 5px;
   font-weight: 500;
@@ -550,8 +546,8 @@ header {
   min-height: 220px;
   margin-bottom: 10px;
 }
-.inputBox input[type="submit"]{
-  background: #7E94A0;
+.inputBox input[type="submit"] {
+  background: #7e94a0;
   color: whitesmoke;
   border: none;
   font-size: 1.1em;
@@ -561,23 +557,23 @@ header {
   padding: 14px 15px;
   border-radius: 25px;
 }
-.inputBox ::placeholder{
+.inputBox ::placeholder {
   cursor: auto;
 }
 
 /*-- info Box --*/
-.info{
-  background:#005E7A;
+.info {
+  background: #005e7a;
 }
-.info h2{
-  color:white;
+.info h2 {
+  color: white;
 }
-.info .infoBox div{
+.info .infoBox div {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
 }
-.info .infoBox div span{
+.info .infoBox div span {
   min-width: 40px;
   height: 40px;
   color: whitesmoke;
@@ -585,47 +581,45 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size:1.5em;
+  font-size: 1.5em;
   border-radius: 50%;
   margin-right: 15px;
-}  
-.info .infoBox div p{
+}
+.info .infoBox div p {
   color: whitesmoke;
   font-size: 1.1em;
-
 }
-.info .infoBox div a{
+.info .infoBox div a {
   color: whitesmoke;
   text-emphasis: none;
   font-size: 1.1em;
 }
-.sci{
+.sci {
   margin-top: 40px;
   display: flex;
 }
-.sci li{
+.sci li {
   list-style: none;
-  margin-right:15px;
+  margin-right: 15px;
 }
-.sci li a{
-  color:whitesmoke;
+.sci li a {
+  color: whitesmoke;
   font-size: 2em;
   color: #ccc;
 }
-.sci li a:hover{
-  color:#fff
+.sci li a:hover {
+  color: #fff;
 }
 
-/* --- Map ---- */ 
+/* --- Map ---- */
 
-.map{
+.map {
   padding: 0;
 }
-.map iframe{
+.map iframe {
   width: 100%;
   height: 100%;
 }
-
 
 /* FOoter------------------*/
 
