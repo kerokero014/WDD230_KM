@@ -290,7 +290,7 @@ header {
   margin: 1rem;
 }
 #weather img {
-  width: 40%;
+  width: 50%;
 }
 #weTempt {
   float: right;
@@ -336,16 +336,16 @@ header {
 }
 
 #spotlights img {
-  width: 100%;
+  width: 50%;
+  margin: 1px;
 }
 
 #spotlights .spotlight {
-  margin: 0;
   text-align: center;
-  background-color: #adbfb8;
-  padding: 5px;
+  background-color: #46595a;
+  padding: 1px;
   box-shadow: 2px 2px 10px black;
-  font-family: "Lora", serif;
+  font-family: "Comfortaa", cursive;
 }
 
 #spotlights .spotlight h1 {
@@ -358,6 +358,10 @@ header {
   font-family: "Lora", serif;
   box-shadow: none;
 }
+.spotlight h2, .spotlight h3, .spotlight p, .spotlight a {
+  padding: 0;
+  margin: .75rem;
+}
 /* --------------------*/
 
 .main-index div {
@@ -368,7 +372,6 @@ header {
   color: white;
 }
 #spotlights div {
-  border: 1px solid gray;
   margin: 0.3em;
   padding: 5em;
 }
