@@ -361,6 +361,7 @@ header {
 .spotlight h2, .spotlight h3, .spotlight p, .spotlight a {
   padding: 0;
   margin: .75rem;
+  color: white;
 }
 /* --------------------*/
 

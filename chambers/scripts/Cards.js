@@ -15,9 +15,9 @@ async function getCompaniesData() {
   function displaySpotlights(stores) {
     const spotlights = document.querySelector("#spotlights");
   
-    const samComp = [0, 2, 5];
-    const christineComp = [3, 6, 7];
-    const joseComp = [1, 4, 8];
+    const compOne = [0, 2, 5];
+    const compTwo = [3, 6, 7];
+    const CompThree = [1, 4, 8];
   
     function getRandomItem(arr) {
       const randomIndex = Math.floor(Math.random() * arr.length);
@@ -25,16 +25,16 @@ async function getCompaniesData() {
       return item;
     }
   
-    let samRandomComp = getRandomItem(samComp);
-    let christineRandomComp = getRandomItem(christineComp);
-    let joseRandomComp = getRandomItem(joseComp);
+    let RandomCompOne = getRandomItem(compOne);
+    let RandomCompTwo = getRandomItem(compTwo);
+    let RandomCompeThree = getRandomItem(CompThree);
   
-    console.log(samRandomComp);
-    console.log(christineRandomComp);
-    console.log(joseRandomComp);
+    console.log(RandomCompOne);
+    console.log(RandomCompTwo);
+    console.log(RandomCompeThree);
   
     const compIndex = [];
-    compIndex.push(samRandomComp, christineRandomComp, joseRandomComp);
+    compIndex.push(RandomCompOne, RandomCompTwo, RandomCompeThree);
   
     console.log(compIndex);
   
