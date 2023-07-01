@@ -141,7 +141,7 @@ header {
   font-family: "Nanum Myeongjo", serif;
 }
 #join-main form input.submitBtn {
-  background-color: #46595a;
+  background-color: #999;
   color: black;
   font-family: "Nanum Myeongjo", serif;
   border-radius: 1rem;
