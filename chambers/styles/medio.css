@@ -106,8 +106,13 @@
   #spotlights {
     display: flex;
     flex-direction: row;
-    padding: 16px;
+    padding: 1em;
   }
+
+  #spotlights{
+    flex: 1;
+  }
+  
   /*---------Join------------------*/
 
   #Join {
