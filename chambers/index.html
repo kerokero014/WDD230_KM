@@ -1,125 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    />
+    <meta
+      name="description"
+      content="This is a website for CSE230-byui bsaed on a Chamber of Commerce in Utah Valley Utah"
+    />
+    <title>Chamber Home Page - Kevin M</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/looks.css" />
+    <link rel="stylesheet" href="styles/medio.css" />
+    <link rel="stylesheet" href="styles/largo.css" />
+    <link rel="icon" href="favicon(1).ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lora&family=Nanum+Myeongjo&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
-  <meta name="description"
-    content="This is a website for CSE230-byui bsaed on a Chamber of Commerce in Utah Valley Utah" />
-  <title>Chamber Home Page - Kevin M</title>
-  <link rel="stylesheet" href="styles/normalize.css" />
-  <link rel="stylesheet" href="styles/looks.css" />
-  <link rel="stylesheet" href="styles/medio.css" />
-  <link rel="stylesheet" href="styles/largo.css" />
-  <link rel="icon" href="favicon(1).ico" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lora&family=Nanum+Myeongjo&display=swap"
-    rel="stylesheet" />
-</head>
-
-<body>
-  <div id="banner"></div>
-  <header>
-    <a href="index.html" class="logo">
-      <img src="images/UV-Chamber-Primarylogo.webp" alt="logo for the Chambers Commerce" />
-    </a>
-    <ul class="navbar">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="discover.html">Discover</a></li>
-      <li><a href="JOIN.html">Join</a></li>
-      <li><a href="directory.html">Directory</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-    <div class="main">
-      <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram-logo" /></a>
-      <a href="https://www.LinkedIn.com/"><img src="images/LinkedIn.png" alt="LinkedIn-logo" /></a>
-      <div class="bx bx-menu" id="menu-icon">
-        <button id="hamButton">&#9776;</button>
+  <body>
+    <div id="banner"></div>
+    <header>
+      <a href="index.html" class="logo">
+        <img
+          src="images/UV-Chamber-Primarylogo.webp"
+          alt="logo for the Chambers Commerce"
+        />
+      </a>
+      <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="JOIN.html">Join</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="main">
+        <a href="https://www.instagram.com/"
+          ><img src="images/instagram.png" alt="instagram-logo"
+        /></a>
+        <a href="https://www.LinkedIn.com/"
+          ><img src="images/LinkedIn.png" alt="LinkedIn-logo"
+        /></a>
+        <div class="bx bx-menu" id="menu-icon">
+          <button id="hamButton">&#9776;</button>
+        </div>
+        <script src="scripts/Hammenu.js"></script>
+        <script src="scripts/date.js"></script>
       </div>
-      <script src="scripts/Hammenu.js"></script>
-      <script src="scripts/date.js"></script>
-    </div>
-  </header>
-  <main class="main-index">
-    <div id="event">
-      <div id="Tulips">
-        <h1>Tulip Festival</h1>
-        <h2>Thanksgiving Point</h2>
+    </header>
+    <main class="main-index">
+      <div id="event">
+        <div id="Tulips">
+          <h1>Tulip Festival</h1>
+          <h2>Thanksgiving Point</h2>
+        </div>
+        <p>Come enjoy of one of the best Fesitval Durign the Summer!</p>
+        <img src="images/Event.jpg" alt="Tulip festival picture" />
       </div>
-      <p>Come enjoy of one of the best Fesitval Durign the Summer!</p>
-      <img src="images/Event.jpg" alt="Tulip festival picture" />
-    </div>
 
-    <div id="weather">
-      <h1>Weather</h1>
-      <img src="images/overCast.png" alt="sunny day in utah Valley" id="weather-icon" />
-      <h2 id="weTempt"></h2>
-      <h2 id="weStatus">Overcast</h2>
-      <h3>Wind Speed:<span id="windSpeed"></span>km/h</h3>
-      <h3>Wind Chill: <span id="windChill"></span>&#8451;</h3>
-    </div>
-
-    <div id="Join">
-      <button>Join Us!</button>
-      <p>
-        Discover how to join the chamber of commerce and how it will benefit
-        your organization!
-      </p>
-    </div>
-
-    <div id="hero">
-      <h1>Welcome to Utah Valley</h1>
-      <button>Joint the Chamber</button>
-      <picture>
-        <source media="(max-width: 576px)" srcset="images/small_W576_wdd230-org.jpg" />
-        <source media="(max-width: 1008px)" srcset="images/meduim_1008_wdd230-org.jpg" />
-        <img src="images/wdd230-org.jpg" alt="pictuer of utah valley" />
-      </picture>
-    </div>
-
-    <div id="news">
-      <h1>News Release</h1>
-      <p>
-        Utah Woman accused of Killing husband after writing book about grief
-        is sued for over $13Million.
-      </p>
-      <p>
-        Final Volume of Joseph Smith Papers released, 22 years after project
-        began.
-      </p>
-    </div>
-<!--spotlights-->
-    <div id="spotlights"></div>
-  </main>
-
-  <footer>
-    <div class="wholefoot">
-      <img src="images/UV-Chamber-Primarylogo.webp" alt="logo for page" />
-      <div class="location">
-        <h1>Utah Valley Chamber Commerce</h1>
-        <p>Utah Valley, Utah</p>
+      <div id="weather">
+        <h1>Weather</h1>
+        <img
+          src="images/overCast.png"
+          alt="sunny day in utah Valley"
+          id="weather-icon"
+        />
+        <h2 id="weTempt"></h2>
+        <h2 id="weStatus">Overcast</h2>
+        <h3>Wind Speed:<span id="windSpeed"></span>km/h</h3>
+        <h3>Wind Chill: <span id="windChill"></span>&#8451;</h3>
       </div>
-      <div class="Coinfo">
-        <h2>utahvalleyChamb@utah.org</h2>
-        <p>801-225-0000</p>
-        <p>Location Map</p>
-      </div>
-    </div>
-    <div class="update">
-      <h1>
-        &copy; <span id="copyrightYear"></span> | Kevin J. Mendoza | Rexburg
-      </h1>
-      <p>Last Updated&nbsp;<span id="lastUpdatedDate"></span></p>
-    </div>
-  </footer>
-  <script src="scripts/spotlights.js"></script>
-  <script src="scripts/windChill.js"></script>
-  <script src="scripts/date.js"></script>
-  <script src="scripts/banner.js"></script>
-</body>
 
+      <div id="Join">
+        <button>Join Us!</button>
+        <p>
+          Discover how to join the chamber of commerce and how it will benefit
+          your organization!
+        </p>
+      </div>
+
+      <div id="hero">
+        <h1>Welcome to Utah Valley</h1>
+        <button>Joint the Chamber</button>
+        <picture>
+          <source
+            media="(max-width: 576px)"
+            srcset="images/small_W576_wdd230-org.jpg"
+          />
+          <source
+            media="(max-width: 1008px)"
+            srcset="images/meduim_1008_wdd230-org.jpg"
+          />
+          <img src="images/wdd230-org.jpg" alt="pictuer of utah valley" />
+        </picture>
+      </div>
+
+      <div id="news">
+        <h1>News Release</h1>
+        <p>
+          Utah Woman accused of Killing husband after writing book about grief
+          is sued for over $13Million.
+        </p>
+        <p>
+          Final Volume of Joseph Smith Papers released, 22 years after project
+          began.
+        </p>
+      </div>
+      <!--spotlights-->
+      <div id="spotlights"></div>
+    </main>
+
+    <footer>
+      <div class="wholefoot">
+        <img src="images/UV-Chamber-Primarylogo.webp" alt="logo for page" />
+        <div class="location">
+          <h1>Utah Valley Chamber Commerce</h1>
+          <p>Utah Valley, Utah</p>
+        </div>
+        <div class="Coinfo">
+          <h2>utahvalleyChamb@utah.org</h2>
+          <p>801-225-0000</p>
+          <p>Location Map</p>
+        </div>
+      </div>
+      <div class="update">
+        <h1>
+          &copy; <span id="copyrightYear"></span> | Kevin J. Mendoza | Rexburg
+        </h1>
+        <p>Last Updated&nbsp;<span id="lastUpdatedDate"></span></p>
+      </div>
+    </footer>
+    <script src="scripts/spotlights.js"></script>
+    <script src="scripts/windChill.js"></script>
+    <script src="scripts/date.js"></script>
+    <script src="scripts/banner.js"></script>
+  </body>
 </html>
