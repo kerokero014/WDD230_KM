@@ -273,7 +273,7 @@ header {
 
 #weather {
   grid-area: weather;
-  width: 98%;
+  width: 24rem;
   margin-left: auto;
   margin-right: auto;
   padding: 0.5rem;
