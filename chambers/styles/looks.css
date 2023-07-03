@@ -54,6 +54,8 @@ header {
 
 .navbar a:hover {
   color: rgb(66, 246, 246);
+  background-color: #627e76;
+  border-radius: 7px;
 }
 
 .main {

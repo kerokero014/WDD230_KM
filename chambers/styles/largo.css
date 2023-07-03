@@ -67,7 +67,7 @@
     margin: 0 auto;
   }
 
-  #news p{
+  #news p {
     font-size: 21px;
   }
 
@@ -87,10 +87,8 @@
   }
 
   .spotlight h3 {
-      
   }
   #spotlight1 img {
-      
   }
 
   /* --------- Hero / CIty --------------*/
@@ -134,7 +132,7 @@
     grid-gap: 20px;
     margin-top: 20px;
   }
-  
+
   /*---------footer-----------------*/
   footer img {
     width: 180px;
