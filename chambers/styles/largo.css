@@ -41,6 +41,7 @@
   #weather {
     grid-column: 1/2;
     grid-row: 2/3;
+    width: 27.5rem;
   }
 
   #Join {
