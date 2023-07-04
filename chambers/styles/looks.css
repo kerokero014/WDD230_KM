@@ -405,9 +405,11 @@ header {
   font-family: "Roboto Slab", sans-serif;
   background-color: lightgray;
 }
+
 #direct_main #menu button:hover {
   background-color: #9ba1a1;
 }
+
 #direct_main div.grid {
   box-shadow: none;
   display: grid;
@@ -425,6 +427,9 @@ header {
   margin: 1rem;
   box-shadow: -5px 5px 8px black;
   padding: 1rem;
+}
+#direct_main div.grid section:hover{
+  background-color: #596F73;
 }
 #direct_main div.list {
   display: flex;
