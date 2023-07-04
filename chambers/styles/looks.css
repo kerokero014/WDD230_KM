@@ -338,7 +338,7 @@ header {
 }
 
 #spotlights img {
-  width: 50%;
+  width: 100%;
   margin: 1px;
 }
 
@@ -376,7 +376,7 @@ header {
 }
 #spotlights div {
   margin: 0.3em;
-  padding: 5em;
+  padding: 2em;
 }
 
 /*------Main Directory------*/
@@ -397,6 +397,7 @@ header {
 
 #direct_main #menu button {
   margin-right: 1rem;
+  border-radius: 10px;
   padding: 1rem;
   font-family: "Roboto Slab", sans-serif;
   background-color: lightgray;
