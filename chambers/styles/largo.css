@@ -74,6 +74,11 @@
 
   /* ----------------Main Discver Big page------------*/
 
+  #discover-main img {
+    width: 50%;
+  }
+
+
   #discover-main div {
     display: flex;
     flex-direction: column;
