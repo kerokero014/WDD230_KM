@@ -402,7 +402,10 @@ header {
   font-family: "Roboto Slab", sans-serif;
   background-color: lightgray;
 }
-
+#direct_main #menu button:hover {
+  background-color: #9ba1a1;
+  
+}
 #direct_main div.grid {
   box-shadow: none;
   display: grid;
