@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+:root{
+  --background:#a3b18a;
+  --letters: black;
+  --gris-color: #dad7cd;
+  --verde-fuerte:#344e41;
+  --verde-semif:#3a5a40;
+  --verde-uva:#588157;
+  --verde-vino:#a3b18a;
+}
+  
