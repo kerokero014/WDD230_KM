@@ -1,4 +1,4 @@
-@media only screen and (max-width: 16.25em) {
+@media only screen and (max-width: 400px) {
     main {
         grid-template-columns: 1fr;
     }
@@ -18,11 +18,18 @@
         width: 85%;
     }
     header {
-        font-size: 80%;
-        width: 90%;
-    }
+        background-color: #604d53;
+        color: white;
+        text-align: center;
+        font-family: "Castoro Titling", cursive;
+        text-shadow: 2px 2px 5px black;
+        border-radius: 8px;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        width: 100%;
+        font-size: 75%;
+      }
     footer {
         font-size: 0.75em;
-        width: 97%;
+        width: 100%;
     }
 }
