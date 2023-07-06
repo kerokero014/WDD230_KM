@@ -5,6 +5,7 @@
     text-decoration: none;
     list-style: none;
   }
+  
 :root{
   --background:#a3b18a;
   --letters: black;
@@ -20,37 +21,41 @@
 
 /* menu icon */
 
+body{
+  background-color: var(--gris-color);
+}
 .header img{
-  width: 10rem;
-  padding:1px;
+  width: 15rem;
+  margin-top:12px;
 }
 
 .header {
-  background-color: #fff;
+  background-color: var(--verde-vino);
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   position: fixed;
   width: 100%;
   z-index: 3;
+  font-family: var(--font-Quicksand);
 }
 
 .header ul {
+  background-color: var(--verde-vino);
   margin: 0;
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: #fff;
 }
 
 .header li a {
   display: block;
   padding: 20px 20px;
-  border-right: 1px solid #f4f4f4;
   text-decoration: none;
+  color:rgba(0, 0, 0, 0.672);
 }
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #f4f4f4;
+  background-color:#CFD6C2;
 }
 
 .header .logo {
@@ -75,7 +80,7 @@
   cursor: pointer;
   display: inline-block;
   float: right;
-  padding: 28px 20px;
+  padding: 42px 20px;
   position: relative;
   user-select: none;
 }
@@ -136,12 +141,13 @@
 }
 
 
+
 @media only screen and (min-width: 600px) {
   .header li {
     float: left;
   }
   .header li a {
-    padding: 20px 30px;
+    padding: 34px 30px;
   }
   .header .menu {
     clear: none;
