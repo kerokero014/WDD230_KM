@@ -135,27 +135,8 @@
   top: 0;
 }
 
-/* 48em = 768px */
 
-@media (min-width: 600px) {
-  .header li {
-    float: left;
-  }
-  .header li a {
-    padding: 20px 30px;
-  }
-  .header .menu {
-    clear: none;
-    float: right;
-    max-height: none;
-  }
-  .header .menu-icon {
-    display: none;
-  }
-}
-
-
-@media (min-width: 400px) {
+@media only screen and (min-width: 600px) {
   .header li {
     float: left;
   }
