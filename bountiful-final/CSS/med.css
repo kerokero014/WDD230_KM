@@ -1,0 +1,17 @@
+
+@media only screen and (min-width: 600px) {
+    .header li {
+      float: left;
+    }
+    .header li a {
+      padding: 34px 30px;
+    }
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    .header .menu-icon {
+      display: none;
+    }
+  }
