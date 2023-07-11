@@ -41,6 +41,7 @@ header {
   position: relative;
   padding: 0.5em;
   font-family: var(--font-Quicksand);
+  height: 90px;
 }
 
 .logo img {
@@ -134,8 +135,6 @@ header {
   background-color: var(--verde-fuerte);
 }
 
-
-
 .dropdown_menu {
   position: absolute;
   display: none;
@@ -168,6 +167,13 @@ header {
   justify-content: center;
 }
 
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+  background-color: aliceblue;
+}
 
 
 @media only screen and (max-width: 576px) {
