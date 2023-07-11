@@ -1,2 +1,17 @@
-@media only screen and (min-width: 800px) {
+/*@media only screen and (min-width: 800px) {
+}*/
+
+@media only screen and (max-width: 992px) {
+  .navbar .links,
+  .navbar .action_btn {
+    display: none;
+  }
+
+  .navbar .toggle_btn{
+    display: block;
+  }
+
+  .dropdown_menu{
+    display: block;
+  }
 }
