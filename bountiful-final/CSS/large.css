@@ -1,3 +1,43 @@
 @media only screen and (min-width: 1010px) {
-  
+    footer p {
+        padding: 10px;
+        margin: 5px;
+      }
+    
+      footer {
+        margin-top: 1em;
+        text-align: center;
+      }
+    
+      .wholefoot {
+        display: flex;
+        flex-direction: row;
+        place-items: center;
+        margin: 1.5rem;
+        align-items: center;
+        justify-content: center;
+        
+      }
+    
+      .wholefoot h1 {
+        text-align: center;
+        font-size: 20px;
+      }
+    
+      .wholefoot {
+        grid-column: 1/2;
+      }
+    
+      .location {
+        grid-column: 2/3;
+      }
+    
+      .Coinfo {
+        grid-column: 4/5;
+      }
+    
+      .update {
+        font-family: "Nanum Myeongjo", serif;
+        width: auto;
+      }
 }
