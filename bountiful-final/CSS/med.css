@@ -22,11 +22,15 @@
     text-align: center;
   }
 
+  footer{
+    background-color: var(--background);
+  }
   .wholefoot {
     display: grid;
     grid-template-columns: 5fr 1fr 1fr 1fr 1fr;
     place-items: center;
     margin: 17px;
+    background-color: var(--verde-vino);
   }
 
   .wholefoot h1 {
@@ -45,13 +49,39 @@
   .Coinfo {
     grid-column: 4/5;
   }
+
+  /*-------Contact US----*/
+  .contactUs {
+    padding: 20px;
+
+  }
+  .box {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "form"
+      "info"
+      "map";
+  }
+  .formBox .row50 {
+    display: flex;
+    gap: 0;
+    flex-direction: column;
+  }
+  .inputBox {
+    width: 100%;
+  }
+  .contact {
+    padding: 30px;
+  }
+  .map {
+    min-height: auto;
+    padding: 0;
+  }
 }
 
 @media only screen and (min-width: 768px) {
-  main {
-    grid-template-columns: repeat(2, 1fr);
-    background-color: aliceblue;
-  }
   header {
     height: 90px;
   }

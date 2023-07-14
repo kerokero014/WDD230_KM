@@ -7,9 +7,12 @@
   footer {
     margin-top: 1em;
     text-align: center;
+    background-color: var(--verde-vino);
   }
 
+
   .wholefoot {
+    background-color: var(--verde-vino);
     display: flex;
     flex-direction: row;
     place-items: center;
@@ -45,8 +48,19 @@
 
 
 @media only screen and (min-width: 1024px) {
-  main {
-    grid-template-columns: repeat(3, 1fr);
-    background-color: antiquewhite;
+
+  /*---Contac  Us Page ---*/
+
+  .box {
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 5fr 4fr;
+    grid-template-areas:
+      "form info"
+      "form map";
+    grid-gap: 20px;
+    margin-top: 20px;
   }
+
 }
