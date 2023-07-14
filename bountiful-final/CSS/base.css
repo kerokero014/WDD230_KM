@@ -18,6 +18,14 @@
   --font-Bitter: "Bitter", serif;
   --font-Quicksand: "Quicksand", sans-serif;
 }
+h1, h2, h3{
+  font-family: var(--font-Quicksand);
+}
+
+p, span, form{
+  font-family: var(--font-Bitter);
+}
+
 
 .index {
   height: 100vh;
