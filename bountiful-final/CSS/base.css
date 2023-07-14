@@ -8,6 +8,7 @@
 
 :root {
   --background: #a3b18a;
+  --ivory-color:#FFFFF0;
   --letters: black;
   --gris-color: #dad7cd;
   --verde-fuerte: #344e41;
@@ -313,6 +314,38 @@ header {
 .map iframe {
   width: 100%;
   height: 100%;
+}
+
+/*--- Thank you page----*/ 
+#TU-main{
+  padding: 50px;
+  width: 100%;
+  height: 90%;
+}
+.thanks_main {
+  margin: 0 auto;
+  background-image: url('../IMGs/rainbow_fruit.JPEG');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.letters-box{
+  background-color: rgba(0, 0, 0, .5);
+}
+.thanks_main p {
+  color: var(--gris-color);
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+.thanks_main h1 {
+  font-size: 18px;
+  color: var(--gris-color);
+  margin-top: 10px;
 }
 
 .fadeIn {

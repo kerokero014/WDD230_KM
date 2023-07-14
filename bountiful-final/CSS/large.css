@@ -1,15 +1,27 @@
 @media only screen and (min-width: 1010px) {
-  footer p {
+  footer p,h1 {
     padding: 10px;
-    margin: 5px;
+    margin-top: 10px;
+  }
+
+  footer p{
+    font-size: 20px;
   }
 
   footer {
-    margin-top: 1em;
     text-align: center;
     background-color: var(--verde-vino);
   }
 
+  #TU-main {
+    margin-top: 100px;
+    margin-bottom: 105px;
+
+  }
+
+  .thanks_main h1{
+    font-size: 45px;
+  }
 
   .wholefoot {
     background-color: var(--verde-vino);
@@ -44,6 +56,10 @@
   header{
     height: 90px;
   }
+  .thanks_main{
+    margin: 10px auto;
+  }
+
 }
 
 
