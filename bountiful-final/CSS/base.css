@@ -336,9 +336,11 @@ header {
   justify-content: right;
   align-content: center;
 }
+
 .container-card img {
   width: 55%;
 }
+
 .text p {
   font-size: 20px;
   padding: 5px;
@@ -349,7 +351,7 @@ header {
 /*----Cards----*/
 
 .carta {
-  width: 250px;
+  width: 500px;
   margin: 20px;
   padding: 30px;
   text-align: center;
@@ -576,5 +578,9 @@ h1 {
 
   .form-container {
     grid-area: 3 / 1 / 4 / 2;
+  }
+
+  .form-container h1{
+    font-size: 15px;
   }
 }
