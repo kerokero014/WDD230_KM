@@ -22,7 +22,7 @@
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 
-<body>
+<body class="labs-body">
   <header>
     <div class="navbar">
       <div class="fadeInLeft">
@@ -49,7 +49,107 @@
       </ul>
     </div>
   </header>
-  <main>
+
+  <main class="labs-main">
+    <div class="container-card berry">
+      <div class="image">
+        <img src="IMGs/shakes.JPEG" alt="Labs main logo"/>
+      </div>
+      <div class="text">
+        <h2>Welcome to Our Labs</h2>
+        <p>Our Labs section has been created to create and allow our communities to make their smoothies and pick from
+          our randomizer shakes.</p>
+      </div>
+    </div>
+
+    <div class="form-container form">
+      <h1>Create Your Own Smoothie</h1>
+      <form id="smoothie-form" action="">
+        <div class="form-section">
+          <label for="flavor">Pick a Flavor:</label>
+          <select id="flavor" required>
+            <option value="" disabled selected>Select a Flavor</option>
+            <option value="Strawberry">Strawberry</option>
+            <option value="Banana">Banana</option>
+            <option value="Mango">Mango</option>
+            <option value="Blueberry">Blueberry</option>
+            <option value="WaterMelon">Watermelon</option>
+            <option value="Passion">Passion Fruit</option>
+            <option value="apple">Green Apple</option>
+          </select>
+        </div>
+        <div class="form-section">
+          <label for="pickup-location">Pickup Location:</label>
+          <select id="flavor" required>
+            <option value="" disabled selected>Select a Flavor</option>
+            <option value="Strawberry">North Station</option>
+            <option value="Banana">Oceanside Station</option>
+            <option value="Mango">Center Station</option>
+            <option value="Blueberry">Southern Station</option>
+          </select>
+          <div class="form-section">
+            <label for="pick-liquid">Pick a Liquid base:</label>
+            <select id="Liquid" required>
+              <option value="" disabled selected>Select a Liquid Base</option>
+              <option value="Milk">Milk 2%</option>
+              <option value="Juice">Apple Juice</option>
+              <option value="Oat">OatMilk</option>
+              <option value="water">Water</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-section">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" required>
+        </div>
+        <div class="form-section">
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" required>
+        </div>
+        <div class="form-section">
+          <label for="additional-info">Additional Information:</label>
+          <textarea id="additional-info"></textarea>
+        </div>
+        <div class="form-section">
+          <label>Extras:</label>
+          <div class="checkbox-group">
+            <label>
+              <input type="checkbox" name="extras" value="Yogurt"> Yogurt
+            </label>
+            <label>
+              <input type="checkbox" name="extras" value="Honey"> Honey
+            </label>
+            <label>
+              <input type="checkbox" name="extras" value="Chia Seeds"> Chia Seeds
+            </label>
+            <label>
+              <input type="checkbox" name="extras" value="Spinach"> Spinach
+            </label>
+            <label>
+              <input type="checkbox" name="extras" value="Chia"> Chia Seeds
+            </label>
+            <label>
+              <input type="checkbox" name="extras" value="Protein"> Whey Vanilla Protein
+            </label>
+          </div>
+        </div>
+        <div class="form-submit">
+          <button type="submit" >Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="carta">
+      
+      <div class="container">
+        <h1>Shake of the Week:</h1>
+        <div class="card" id="smoothie-card">
+          <h2>Loading...</h2>
+          <p>Please wait while the smoothie loads...</p>
+        </div>
+        <button onclick="randomizeCard()">Randomize Smoothie</button>
+      </div>
+    </div>
 
   </main>
   <footer>
@@ -62,6 +162,8 @@
   </footer>
   <script src="JS/ham.js"></script>
   <script src="JS/current.js"></script>
+  <script src="JS/shakes.js"></script>
+  <script src="JS/cards.js"></script>
 </body>
 
 </html>

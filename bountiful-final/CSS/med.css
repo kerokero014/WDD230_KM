@@ -14,15 +14,17 @@
   .dropdown_menu {
     display: block;
   }
+
   .update {
     padding: 15px;
     font-size: 75%;
     text-align: center;
   }
 
-  footer{
+  footer {
     background-color: var(--background);
   }
+
   .wholefoot {
     display: grid;
     grid-template-columns: 5fr 1fr 1fr 1fr 1fr;
@@ -51,8 +53,8 @@
   /*-------Contact US----*/
   .contactUs {
     padding: 20px;
-
   }
+
   .box {
     display: grid;
     grid-template-columns: 1fr;
@@ -62,24 +64,52 @@
       "info"
       "map";
   }
+
   .formBox .row50 {
     display: flex;
     gap: 0;
     flex-direction: column;
   }
+
   .inputBox {
     width: 100%;
   }
+
   .contact {
     padding: 30px;
   }
+
   .map {
     min-height: auto;
     padding: 0;
   }
+
   /*---thank you page Medium---*/
-  #TU-main{
+  #TU-main {
     margin: 121px auto;
+  }
+
+  /*---labs----*/
+
+  .labs-main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 9px;
+    grid-row-gap: 9px;
+  }
+
+  .container-card {
+    grid-area: 1 / 2 / 3 / 4;
+  }
+
+  .carta {
+    grid-area: 3 / 2 / 5 / 4; 
+    margin-left: 12rem;
+  }
+
+  .form-container {
+    grid-area: 5 / 2 / 7 / 4;
   }
 }
 
@@ -87,5 +117,4 @@
   header {
     height: 90px;
   }
-  
 }
