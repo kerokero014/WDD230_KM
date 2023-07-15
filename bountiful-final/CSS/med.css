@@ -91,6 +91,13 @@
 
   /*---labs----*/
 
+  
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    height: 90px;
+  }
   .labs-main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -110,11 +117,5 @@
 
   .form-container {
     grid-area: 5 / 2 / 7 / 4;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  header {
-    height: 90px;
   }
 }
