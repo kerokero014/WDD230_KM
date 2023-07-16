@@ -553,10 +553,10 @@ h1 {
   /*---labs main---*/
   .labs-main {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    grid-column-gap: 9px;
-    grid-row-gap: 9px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
   }
 
   .container-card {
@@ -564,7 +564,7 @@ h1 {
   }
 
   .carta {
-    grid-area: 3 / 2 / 5 / 4; 
+    grid-area: 3 / 2 / 5 / 4;
     margin-left: 12rem;
   }
 
@@ -574,5 +574,20 @@ h1 {
 
   .form-container h1 {
     font-size: 15px;
+  }
+
+  /*---MAIN----*/
+  .index-main{
+
+  }
+  .hero img{
+    width: 100%;
+  }
+  .hero h1{
+    font-size: 25px;
+  }
+  .hero h3{
+    font-size: 20px;
+    text-align: center;
   }
 }
