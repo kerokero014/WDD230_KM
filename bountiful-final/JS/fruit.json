@@ -5,7 +5,7 @@
       "name": "Apple",
       "nutrients": {
         "calories": 52,
-        "carbs": 14,
+        "carbohydrates": 14,
         "fat": 0.2,
         "fiber": 2.4,
         "sugar": 10.3,
@@ -17,7 +17,7 @@
       "name": "Banana",
       "nutrients": {
         "calories": 96,
-        "carbs": 25,
+        "carbohydrates": 25,
         "fat": 0.4,
         "fiber": 2.6,
         "sugar": 14,
@@ -29,7 +29,7 @@
       "name": "Orange",
       "nutrients": {
         "calories": 43,
-        "carbs": 11,
+        "carbohydrates": 11,
         "fat": 0.2,
         "fiber": 2.4,
         "sugar": 9,
@@ -41,7 +41,7 @@
       "name": "Strawberry",
       "nutrients": {
         "calories": 29,
-        "carbs": 7,
+        "carbohydrates": 7,
         "fat": 0.3,
         "fiber": 2,
         "sugar": 4.9,
@@ -53,7 +53,7 @@
       "name": "Blueberry",
       "nutrients": {
         "calories": 57,
-        "carbs": 14,
+        "carbohydrates": 14,
         "fat": 0.3,
         "fiber": 2.4,
         "sugar": 9,
@@ -65,7 +65,7 @@
       "name": "Mango",
       "nutrients": {
         "calories": 60,
-        "carbs": 15,
+        "carbohydrates": 15,
         "fat": 0.4,
         "fiber": 2,
         "sugar": 14,
@@ -77,7 +77,7 @@
       "name": "Grapes",
       "nutrients": {
         "calories": 69,
-        "carbs": 18,
+        "carbohydrates": 18,
         "fat": 0.2,
         "fiber": 0.9,
         "sugar": 16,
@@ -89,7 +89,7 @@
       "name": "Pineapple",
       "nutrients": {
         "calories": 50,
-        "carbs": 13,
+        "carbohydrates": 13,
         "fat": 0.1,
         "fiber": 1.4,
         "sugar": 9,
@@ -101,7 +101,7 @@
       "name": "Watermelon",
       "nutrients": {
         "calories": 30,
-        "carbs": 8,
+        "carbohydrates": 8,
         "fat": 0.2,
         "fiber": 0.6,
         "sugar": 6,
@@ -113,7 +113,7 @@
       "name": "Kiwi",
       "nutrients": {
         "calories": 41,
-        "carbs": 9,
+        "carbohydrates": 9,
         "fat": 0.4,
         "fiber": 2.1,
         "sugar": 6,
@@ -125,7 +125,7 @@
       "name": "Peach",
       "nutrients": {
         "calories": 39,
-        "carbs": 10,
+        "carbohydrates": 10,
         "fat": 0.3,
         "fiber": 1.5,
         "sugar": 8,
@@ -137,7 +137,7 @@
       "name": "Pear",
       "nutrients": {
         "calories": 57,
-        "carbs": 15,
+        "carbohydrates": 15,
         "fat": 0.1,
         "fiber": 3.1,
         "sugar": 10,
@@ -149,7 +149,7 @@
       "name": "Pomegranate",
       "nutrients": {
         "calories": 83,
-        "carbs": 19,
+        "carbohydrates": 19,
         "fat": 1.2,
         "fiber": 4,
         "sugar": 14,
@@ -161,7 +161,7 @@
       "name": "Raspberry",
       "nutrients": {
         "calories": 53,
-        "carbs": 12,
+        "carbohydrates": 12,
         "fat": 0.7,
         "fiber": 6.5,
         "sugar": 4.4,
@@ -173,7 +173,7 @@
       "name": "Blackberry",
       "nutrients": {
         "calories": 43,
-        "carbs": 10,
+        "carbohydrates": 10,
         "fat": 0.4,
         "fiber": 5.3,
         "sugar": 5.4,
@@ -185,7 +185,7 @@
       "name": "Cherry",
       "nutrients": {
         "calories": 50,
-        "carbs": 12,
+        "carbohydrates": 12,
         "fat": 0.2,
         "fiber": 2.1,
         "sugar": 8,
@@ -197,7 +197,7 @@
       "name": "Grapefruit",
       "nutrients": {
         "calories": 52,
-        "carbs": 13,
+        "carbohydrates": 13,
         "fat": 0.2,
         "fiber": 2,
         "sugar": 8,
@@ -209,7 +209,7 @@
       "name": "Cantaloupe",
       "nutrients": {
         "calories": 34,
-        "carbs": 8,
+        "carbohydrates": 8,
         "fat": 0.2,
         "fiber": 1.6,
         "sugar": 8,
@@ -221,7 +221,7 @@
       "name": "Apricot",
       "nutrients": {
         "calories": 48,
-        "carbs": 12,
+        "carbohydrates": 12,
         "fat": 0.1,
         "fiber": 2,
         "sugar": 9,
@@ -233,7 +233,7 @@
       "name": "Mandarin",
       "nutrients": {
         "calories": 53,
-        "carbs": 13,
+        "carbohydrates": 13,
         "fat": 0.3,
         "fiber": 1.8,
         "sugar": 10,
@@ -245,7 +245,7 @@
       "name": "Plum",
       "nutrients": {
         "calories": 46,
-        "carbs": 11,
+        "carbohydrates": 11,
         "fat": 0.2,
         "fiber": 1.4,
         "sugar": 9,
@@ -257,7 +257,7 @@
       "name": "Nectarine",
       "nutrients": {
         "calories": 44,
-        "carbs": 11,
+        "carbohydrates": 11,
         "fat": 0.3,
         "fiber": 1.7,
         "sugar": 9,
@@ -269,7 +269,7 @@
       "name": "Coconut",
       "nutrients": {
         "calories": 283,
-        "carbs": 12,
+        "carbohydrates": 12,
         "fat": 27,
         "fiber": 9,
         "sugar": 6,
@@ -281,7 +281,7 @@
       "name": "Lemon",
       "nutrients": {
         "calories": 29,
-        "carbs": 9,
+        "carbohydrates": 9,
         "fat": 0.3,
         "fiber": 2.8,
         "sugar": 2.5,
@@ -293,7 +293,7 @@
       "name": "Lime",
       "nutrients": {
         "calories": 30,
-        "carbs": 10,
+        "carbohydrates": 10,
         "fat": 0.2,
         "fiber": 2.8,
         "sugar": 1.7,
@@ -305,7 +305,7 @@
       "name": "Avocado",
       "nutrients": {
         "calories": 160,
-        "carbs": 9,
+        "carbohydrates": 9,
         "fat": 15,
         "fiber": 7,
         "sugar": 0.7,
@@ -317,7 +317,7 @@
       "name": "Passion Fruit",
       "nutrients": {
         "calories": 97,
-        "carbs": 23,
+        "carbohydrates": 23,
         "fat": 0.7,
         "fiber": 10,
         "sugar": 11,
@@ -329,7 +329,7 @@
       "name": "Papaya",
       "nutrients": {
         "calories": 43,
-        "carbs": 11,
+        "carbohydrates": 11,
         "fat": 0.4,
         "fiber": 2,
         "sugar": 8,
@@ -341,7 +341,7 @@
       "name": "Cranberry",
       "nutrients": {
         "calories": 46,
-        "carbs": 12,
+        "carbohydrates": 12,
         "fat": 0.1,
         "fiber": 4.6,
         "sugar": 4,
@@ -353,7 +353,7 @@
       "name": "Papaya",
       "nutrients": {
         "calories": 43,
-        "carbs": 11,
+        "carbohydrates": 11,
         "fat": 0.4,
         "fiber": 2,
         "sugar": 8,

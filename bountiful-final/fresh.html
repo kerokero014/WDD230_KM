@@ -31,7 +31,7 @@
       <ul class="navbar">
         <li><a href="main.html">Home</a></li>
         <li><a href="fresh.html">Fresh</a></li>
-        <li><a href="contact.html">About Us</a></li>
+        <li><a href="work.html">About Us</a></li>
         <li><a href="contact.html">Contact Us</a></li>
       </ul>
     </ul>
@@ -42,109 +42,55 @@
         <button id="hamButton">&#9776;</button>
         <p class="date" id="date"></p>
       </div>
-      <script src="scripts/ham.js"></script>
+      <script src="JS/ham.js"></script>
+      <script src="JS/shakes.js"></script>
+
     </div>
   </header>
 
-  <main class="labs-main">
-    <div class="container-card berry">
-      <div class="image">
-        <img src="IMGs/shakes.JPEG" alt="Labs main logo" />
-      </div>
-      <div class="text">
-        <h2>Welcome to Our Labs</h2>
-        <p>Our Labs section has been created to create and allow our communities to make their smoothies and pick from
-          our randomizer shakes.</p>
-      </div>
-    </div>
-
-    <div class="form-container form">
-      <h1>Create Your Own Smoothie</h1>
-      <form id="smoothie-form" action="">
-        <div class="form-section">
-          <label for="flavor">Pick a Flavor:</label>
-          <select id="flavor" required>
-            <option value="" disabled selected>Select a Flavor</option>
-            <option value="Strawberry">Strawberry</option>
-            <option value="Banana">Banana</option>
-            <option value="Mango">Mango</option>
-            <option value="Blueberry">Blueberry</option>
-            <option value="WaterMelon">Watermelon</option>
-            <option value="Passion">Passion Fruit</option>
-            <option value="apple">Green Apple</option>
-          </select>
-        </div>
-        <div class="form-section">
-          <label for="pickup-location">Pickup Location:</label>
-          <select id="flavor" required>
-            <option value="" disabled selected>Select a Flavor</option>
-            <option value="Strawberry">North Station</option>
-            <option value="Banana">Oceanside Station</option>
-            <option value="Mango">Center Station</option>
-            <option value="Blueberry">Southern Station</option>
-          </select>
-          <div class="form-section">
-            <label for="pick-liquid">Pick a Liquid base:</label>
-            <select id="Liquid" required>
-              <option value="" disabled selected>Select a Liquid Base</option>
-              <option value="Milk">Milk 2%</option>
-              <option value="Juice">Apple Juice</option>
-              <option value="Oat">OatMilk</option>
-              <option value="water">Water</option>
-            </select>
+  <div class="page-container">
+    <main id="fresh-main-container">
+      <h2>Your specialty drink</h2>
+      <p>Make your most amazing specialty drink.</p>
+      <div id="form-container">
+        <p>Please, provide the following information so that we can make your order ;)</p>
+        <form>
+          <div class="form-field">
+            <input id="name" type="text" name="name" placeholder="Name" required>
           </div>
-        </div>
-        <div class="form-section">
-          <label for="name">Your Name:</label>
-          <input type="text" id="name" required>
-        </div>
-        <div class="form-section">
-          <label for="phone">Phone Number:</label>
-          <input type="tel" id="phone" required>
-        </div>
-        <div class="form-section">
-          <label for="additional-info">Additional Information:</label>
-          <textarea id="additional-info"></textarea>
-        </div>
-        <div class="form-section">
-          <label>Extras:</label>
-          <div class="checkbox-group">
-            <label>
-              <input type="checkbox" name="extras" value="Yogurt"> Yogurt
-            </label>
-            <label>
-              <input type="checkbox" name="extras" value="Honey"> Honey
-            </label>
-            <label>
-              <input type="checkbox" name="extras" value="Chia Seeds"> Chia Seeds
-            </label>
-            <label>
-              <input type="checkbox" name="extras" value="Spinach"> Spinach
-            </label>
-            <label>
-              <input type="checkbox" name="extras" value="Chia"> Chia Seeds
-            </label>
-            <label>
-              <input type="checkbox" name="extras" value="Protein"> Whey Vanilla Protein
-            </label>
+          <div class="form-field">
+            <input id="email" type="email" name="email" placeholder="E-mail" required>
           </div>
-        </div>
-        <div class="form-submit">
-          <button type="submit">Submit</button>
-        </div>
-      </form>
-    </div>
-    <div class="carta">
-      <div class="container">
-        <h1>Shake of the Week:</h1>
-        <div class="card" id="smoothie-card">
-          <h2>Loading...</h2>
-          <p>Please wait while the smoothie loads...</p>
-        </div>
-        <button onclick="randomizeCard()">Randomize Smoothie</button>
+          <div class="form-field">
+            <input id="phone" type="char" name="phone" placeholder="Phone" required>
+          </div>
+          <div class="form-field">
+            <p>What is going in your drink?</p>
+            <div id="fruit-options">
+              <select id="first-fruit" required>
+                <option>Pick</option>
+              </select>
+              <select id="second-fruit" required>
+                <option>Pick</option>
+              </select>
+              <select id="third-fruit" required>
+                <option>Pick</option>
+              </select>
+            </div>
+            <input id="first-fruit-nutritional-info" type="hidden">
+            <input id="second-fruit-nutritional-info" type="hidden">
+            <input id="third-fruit-nutritional-info" type="hidden">
+          </div>
+          <div class="form-field">
+            <p>Want to add special instructions?</p>
+            <textarea id="special-instructions" name="special-instructions" placeholder="I would like..."></textarea>
+          </div>
+        </form>
+        <button id="send-order">Send my order</button>
+        <section id="order-info"></section>
       </div>
-    </div>
-  </main>
+    </main>
+  </div>
   <footer>
     <div class="update">
       <h1>

@@ -115,6 +115,57 @@ header {
 }
 
 
+/*---Fresh---*/
+
+#fresh-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+}
+
+form {
+    padding-right: 2rem;
+}
+
+.form-field, .form-field input, textarea {
+    width: 100%;
+}
+
+.form-field {
+    margin-bottom: 2rem;
+}
+
+#fruit-options {
+    display: flex;
+    gap: 1rem;
+}
+
+#fruit-options select {
+    width: 100%;
+    height: 44px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.25);
+    border: none;
+    padding: 0 1rem;
+}
+
+
+input {
+    border: none;
+    border-bottom: 1px solid #ED398C;
+    height: 36px;
+}
+
+textarea {
+    height: 10rem;
+    border: none;
+    box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.25);
+    padding: 1.25rem;
+}
+
+
 
 
 
