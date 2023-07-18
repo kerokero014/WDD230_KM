@@ -100,12 +100,12 @@ async function displayOrder() {
         let sugar = 0;
 
         for (const nutritionalInfo of nutritionalInfos) {
-            const nutritions = nutritionalInfo.nutritions
-            carbohydrates += nutritions.carbohydrates
-            protein += nutritions.protein
-            fat += nutritions.fat
-            calories += nutritions.calories
-            sugar += nutritions.sugar
+            const nutrients = nutritionalInfo.nutrients
+            carbohydrates += nutrients.carbohydrates
+            protein += nutrients.protein
+            fat += nutrients.fat
+            calories += nutrients.calories
+            sugar += nutrients.sugar
         }
 
         // Display carbohydrates field

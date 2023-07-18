@@ -1,5 +1,20 @@
-/*@media only screen and (min-width: 800px) {
-}*/
+@media only screen and (min-width: 800px) {
+  #make-your-drink p br {
+    display: none;
+}
+
+#make-your-drink button {
+    max-width: 12rem;
+}
+
+#three-day-weather-forecast {
+    text-align: center;
+}
+
+.forecasts {
+    text-align: center;
+}
+}
 
 @media only screen and (max-width: 992px) {
   #menu-icon button {
