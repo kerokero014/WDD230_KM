@@ -195,4 +195,9 @@
   .weather-card hr {
     max-width: 320px;
   }
+  div.home-page-card {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+
 }

@@ -31,7 +31,6 @@ form {
   font-family: var(--font-Bitter);
 }
 
-
 .fadeInLeft {
   -webkit-animation-name: fadeInLeft;
   animation-name: fadeInLeft;
@@ -42,7 +41,6 @@ form {
 }
 
 /*-------------Main-------------*/
-
 
 /*----navbar/header---*/
 
@@ -77,7 +75,6 @@ header {
 
 .navbar {
   display: flex;
-  
 }
 
 .main a {
@@ -95,7 +92,7 @@ header {
 }
 
 .navbar a:hover {
-  color:var(--letters);
+  color: var(--letters);
   background-color: var(--ivory-color);
   border-radius: 7px;
 }
@@ -114,84 +111,160 @@ header {
   font-size: 28px;
 }
 
+/*------Main------*/
+.index-main {
+  color: var(--letters);
+  display: grid;
+  grid-template-columns:1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+.main-pic img {
+  width: 100%;
+}
+
+.main-1{
+  text-align: center;
+  padding: 15px;
+
+}
+
+.main-2{
+  text-align: center;
+  padding: 15px;
+}
+
+.main-3{
+  text-align: center;
+  padding: 15px;
+}
+
+.main-4{
+  text-align: center;
+  padding: 15px;
+}
+
+.main-4 img{
+  width: 100%;
+}
+
+.main-3 img{
+  width: 99%;
+}
+
+.main-3{
+  text-align: center;
+  align-items: center;
+}
+
+button{
+  background-color: var(--verde-uva);
+  padding: 9px;
+  border-radius: 20px;
+}
+button a{
+  color: whitesmoke;
+}
+
+button:hover{
+  background-color:#AAC5AA;
+  padding: 15px;
+
+}
+.weather-table {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+div.home-page-card {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0 0 30px #777;
+  outline: 2px solid black;
+  padding: 0.75em;
+  margin: 5px;
+  width: 100%;
+}
+
 
 /*---Fresh---*/
-
-.fresh-main-container{
-  color:var(--letters);
+.fresh-main-container {
+  color: var(--letters);
   background-color: var(--ivory-color);
 }
 
-.page-container{
-  color:var(--letters);
+.page-container {
+  color: var(--letters);
 }
 
-.page-container h2{
+.page-container h2 {
   font-size: 15px;
 }
 
-.page-container p{
+.page-container p {
   padding: 10px;
   font-size: 15px;
-
 }
 
 #fresh-main-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 8rem;
-    margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8rem;
+  margin-bottom: 5rem;
 }
 
 form {
-    padding: 1rem;
+  padding: 1rem;
 }
 
-.form-field, .form-field input, textarea {
-    width: 100%;
+.form-field,
+.form-field input,
+textarea {
+  width: 100%;
 }
 
 .form-field {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 #fruit-options {
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
 }
 
 #fruit-options select {
-    width: 100%;
-    height: 44px;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.25);
-    border: none;
-    padding: 0 1rem;
+  width: 100%;
+  height: 44px;
+  background: #ffffff;
+  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.25);
+  border: none;
+  padding: 0 1rem;
 }
 
-
 input {
-    border: none;
-    border-bottom: 1px solid #ED398C;
-    height: 36px;
+  border: none;
+  border-bottom: 1px solid #ed398c;
+  height: 36px;
 }
 
 textarea {
-    height: 10rem;
-    border: none;
-    box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.25);
-    padding: 1.25rem;
+  height: 10rem;
+  border: none;
+  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.25);
+  padding: 1.25rem;
 }
 
 /*--- About us/ Work----*/
 
-.us-1 img{
+.us-1 img {
   width: 50%;
   height: auto;
   padding: 10px;
 }
-.us-2 img{ 
+.us-2 img {
   width: 50%;
   padding: 10px;
 }
@@ -201,15 +274,17 @@ textarea {
   height: 200px;
 }
 
-.us-3{
+.us-3 {
   padding: 15px;
 }
 
-.us-1 p, .us-2 p, .us-3 p{
+.us-1 p,
+.us-2 p,
+.us-3 p {
   padding: 15px;
 }
 
-.about-us-main{
+.about-us-main {
   display: grid;
   grid-template-columns: 1fr;
   text-align: center;
@@ -411,17 +486,11 @@ textarea {
   margin-top: 10px;
 }
 
-.weather-table {
-  max-width: 320px;
-  margin: 0 auto;
-}
-
 @media only screen and (max-width: 576px) {
-
   footer img {
     width: 45%;
   }
-  footer h1 h2 h3{
+  footer h1 h2 h3 {
     font-size: 10px;
   }
 
@@ -429,7 +498,7 @@ textarea {
     text-align: center;
     background-color: var(--verde-vino);
   }
-  
+
   .wholefoot {
     display: grid;
     grid-template-columns: 5fr 1fr 1fr 1fr 1fr;

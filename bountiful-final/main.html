@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
   <meta name="description" content="This is the final website for Bountiful Foods, for the class CSE230 in BYU-I" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,7 +19,7 @@
   <script src="JS/weather.js"></script>
 </head>
 
-<body class="index">
+<body>
   <header>
     <a href="main.html" class="logo">
       <img src="IMGs/New-Logo.webp" alt="logo for the Chambers Commerce" />
@@ -39,67 +39,100 @@
       <script src="scripts/ham.js"></script>
     </div>
   </header>
+
   <main class="index-main">
-    <div class="hero">
+    <section class="main-1">
+      <picture class="main-pic">
+        <source srcset="IMGs/med-background-veggies.webp" media="(min-width:748px) and (max-width:1199px)" />
+        <source srcset="IMGs/med-background-veggies.webp" media="(min-width:1200px)" />
+        <img src="IMGs/background-veggies.webp" class="hero-img" alt="image of fruit" />
+      </picture>
       <h1>Welcome to Bountiful Foods</h1>
-      <h3>We specialize in bringing the best produce and freshesh fruits from local farms right to the community</h3>
-    </div>
-
-    <div class="weather-card home-page-card">
-      <h2 class="">Current Weather</h2>
-      <h3 class="">in Carlsbad, Ca</h3>
-      <div class="weather-table">
-        <table id="weather" class="center">
-          <tr>
-            <td>
-              <p>Current:</p>
-            </td>
-            <td>
-              <p><img class="" id="weather_icon" src="IMGs/rainy.png" height="42" width="42" loading="lazy"
-                  alt="weather icon"></p>
-            </td>
-            <td>
-              <h4><span id='temperature'>32</span>°F</h4>
-            </td>
-            <td>
-              <p><span id="forecast">Partly Cloudy</span></p>
-            </td>
-          </tr>
-        </table>
-        <table class="center">
-          <tr>
-            <td>
-              <p class="table-header">Wind</p>
-            </td>
-            <td>
-              <p class="table-header">Wind Chill</p>
-            </td>
-            <td>
-              <p class="table-header">Humidity</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p><span id='wind_speed'>20</span> mph</p>
-            </td>
-            <td>
-              <p><span id='wind_chill'>N/A</span></p>
-            </td>
-            <td>
-              <p><span id='humidity'>20</span> %</p>
-            </td>
-          </tr>
-        </table>
+      <h3>
+        We specialize in bringing the best produce and freshesh fruits from
+        local farms right to the community
+      </h3>
+    </section>
+    <section class="main-2">
+      <div class="weather-card home-page-card">
+        <h2 class="">Current Weather</h2>
+        <h3 class="">in Carlsbad, Ca</h3>
+        <div class="weather-table">
+          <table id="weather" class="center">
+            <tr>
+              <td>
+                <p>Current:</p>
+              </td>
+              <td>
+                <p>
+                  <img class="" id="weather_icon" src="IMGs/rainy.png" height="42" width="42" loading="lazy"
+                    alt="weather icon" />
+                </p>
+              </td>
+              <td>
+                <h4><span id="temperature">32</span>°F</h4>
+              </td>
+              <td>
+                <p><span id="forecast">Partly Cloudy</span></p>
+              </td>
+            </tr>
+          </table>
+          <table class="center">
+            <tr>
+              <td>
+                <p class="table-header">Wind</p>
+              </td>
+              <td>
+                <p class="table-header">Wind Chill</p>
+              </td>
+              <td>
+                <p class="table-header">Humidity</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p><span id="wind_speed">20</span> mph</p>
+              </td>
+              <td>
+                <p><span id="wind_chill">N/A</span></p>
+              </td>
+              <td>
+                <p><span id="humidity">20</span> %</p>
+              </td>
+            </tr>
+          </table>
+        </div>
       </div>
+    </section>
 
+    <section class="main-3">
+      <h2>Your Custom Drinks</h2>
+      <img src="IMGs/Labs 1.webp" alt="drinks" loading="lazy"/>
+      <button><a href="fresh.html">Create one right now!</a></button>
+    </section>
 
+    <section class="main-4">
+      <h1>Living in Carlsbad</h1>
+      <img src="IMGs/beach-2.webp" alt="beach in Carlsbad" />
+      <p>Carlsbad, often referred to as "The Village by the Sea," is a picturesque city located along the beautiful
+        coastline of North County San Diego. Boasting a Mediterranean-like climate, stunning beaches, and a welcoming
+        community, Carlsbad offers an idyllic lifestyle that is hard to resist.</p>
+      <img src="IMGs/beach-1.jpg" alt="beach in Carlsbad" />
+      <p>One of the standout features of Carlsbad is its coastal beauty. Miles of pristine beaches provide residents
+        with endless opportunities for sunbathing, surfing, and enjoying breathtaking sunsets over the Pacific Ocean.
+        Whether you're a nature lover, a water enthusiast, or simply seeking a peaceful retreat, Carlsbad's beaches will
+        captivate you.</p>
+      <img src="IMGs/beach-3.jpg" alt="beach in Carlsbad" />
+    </section>
   </main>
-
   <footer>
     <div class="update">
       <h1>
-        &copy;<span id="currentYear"></span> | Bountiful Foods | Carlsbad, CA
+        &copy;<span id="currentYear"></span> | Bountiful Foods| Carlsbad, CA
       </h1>
+      <img src="IMGs/New-Logo.webp" alt="New-Logo" />
+      <h2>Kevin Mendoza</h2>
+      <h3>WDD-230</h3>
       <p>Last Updated&nbsp;<span id="currentDateTime"></span></p>
     </div>
   </footer>
