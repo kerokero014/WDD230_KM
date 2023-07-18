@@ -1,24 +1,42 @@
 @media only screen and (min-width: 800px) {
   #make-your-drink p br {
     display: none;
-}
+  }
 
-#make-your-drink button {
+  #make-your-drink button {
     max-width: 12rem;
-}
+  }
 
-#three-day-weather-forecast {
+  #three-day-weather-forecast {
     text-align: center;
-}
+  }
 
-.forecasts {
+  .forecasts {
     text-align: center;
-}
+  }
 }
 
 @media only screen and (max-width: 992px) {
   #menu-icon button {
     display: block;
+  }
+
+  header img {
+    width: 190px;
+  }
+
+  .page-container img{ 
+    width: 85%;
+    padding-bottom: 25px;
+  }
+
+  .page-container h2 {
+    font-size: 30px;
+  }
+
+  .page-container p {
+    padding: 10px;
+    font-size: 20px;
   }
 
   .navbar {
@@ -27,7 +45,7 @@
     right: 100%;
     width: 95%;
     height: 29vh;
-    background:var(--ivory-color);
+    background: var(--ivory-color);
     display: flex;
     flex-direction: column;
     transition: all 0.5s ease;
@@ -38,7 +56,7 @@
     margin: 12px 0;
     padding: 0px 25px;
     transition: all.50s ease;
-    color:vaR(--verde-fuerte);
+    color: vaR(--verde-fuerte);
   }
 
   .navbar a:hover {
@@ -51,7 +69,6 @@
     border-radius: 20px;
     height: 105px;
   }
-
 
   footer {
     background-color: var(--background);
@@ -125,7 +142,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-
   .weather-table,
   .weather-card hr {
     max-width: 320px;

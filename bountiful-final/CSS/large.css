@@ -10,8 +10,30 @@
   }
 }
 
-
 @media only screen and (min-width: 1010px) {
+  /*---header ---*/
+
+  header img {
+    width: 250px;
+  }
+  /*----fresh--*/
+  .page-container img{ 
+    width: 40%;
+    padding-bottom: 25px;
+  }
+  .page-container h2 {
+    font-size: 29px;
+  }
+
+  .page-container p {
+    padding: 10px;
+    font-size: 25px;
+  }
+
+  form {
+    padding: rem;
+  }
+  /*---- Footer---*/
   footer p,
   h1 {
     padding: 10px;
@@ -32,8 +54,6 @@
     margin-bottom: 105px;
   }
 
-
-  
   .thanks_main h1 {
     font-size: 45px;
   }

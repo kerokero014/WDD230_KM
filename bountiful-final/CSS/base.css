@@ -47,7 +47,7 @@ form {
 /*----navbar/header---*/
 
 header img {
-  width: 250px;
+  width: 180px;
 }
 
 .main img {
@@ -117,8 +117,21 @@ header {
 
 /*---Fresh---*/
 
-.labs-body{
+.labs-main{
   color:var(--letters)
+}
+.page-container{
+  color:var(--letters);
+}
+
+.page-container h2{
+  font-size: 15px;
+}
+
+.page-container p{
+  padding: 10px;
+  font-size: 15px;
+
 }
 
 #fresh-main-container {
@@ -130,7 +143,7 @@ header {
 }
 
 form {
-    padding-right: 2rem;
+    padding: 1rem;
 }
 
 .form-field, .form-field input, textarea {

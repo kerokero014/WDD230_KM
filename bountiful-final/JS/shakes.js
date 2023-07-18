@@ -11,9 +11,9 @@ getFruitOptions();
 // This function display fruit options in the drink's form
 async function displayFruitOptions() {
     const fruits = await getFruits();
-    const firstFruitOptions = await getFruitOptions(0, 6, fruits);
-    const secondFruitOptions = await getFruitOptions(7, 13, fruits);
-    const thirdFruitOptions = await getFruitOptions(14, 20, fruits);
+    const firstFruitOptions = await getFruitOptions(0, 10, fruits);
+    const secondFruitOptions = await getFruitOptions(11, 19, fruits);
+    const thirdFruitOptions = await getFruitOptions(30, 40, fruits);
     // Display fruit options
     addFruitOptions(document.querySelector("#first-fruit"), firstFruitOptions);
     addFruitOptions(document.querySelector("#second-fruit"), secondFruitOptions);
