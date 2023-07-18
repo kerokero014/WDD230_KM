@@ -21,6 +21,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="JS/weather.js"></script>
 </head>
 
 <body class="index">
@@ -50,15 +51,65 @@
       </ul>
     </div>
   </header>
+
+  
   <main class="index-main">
     <div class="hero">
-      <img src="IMGS/Oranges.JPEG" alt="orange"/>
+      <img src="IMGS/Oranges.JPEG" alt="orange" />
       <h1>Welcome to Bountiful Foods</h1>
       <h3>We specialize in bringing the best produce and freshesh fruits from local farms right to the community</h3>
     </div>
-    <div class="weather">
-      
+    <div class="social">
+
+
     </div>
+
+    <div class="weather-card home-page-card">
+      <h2 class="">Current Weather</h2>
+      <h3 class="">in Carlsbad, Ca</h3>
+      <div class="weather-table">
+        <table id="weather" class="center">
+          <tr>
+            <td>
+              <p>Current:</p>
+            </td>
+            <td>
+              <p><img class="" id="weather_icon" src="IMGs/rainy.png" height="42" width="42" loading="lazy"
+                  alt="weather icon"></p>
+            </td>
+            <td>
+              <h4><span id='temperature'>32</span>°F</h4>
+            </td>
+            <td>
+              <p><span id="forecast">Partly Cloudy</span></p>
+            </td>
+          </tr>
+        </table>
+        <table class="center">
+          <tr>
+            <td>
+              <p class="table-header">Wind</p>
+            </td>
+            <td>
+              <p class="table-header">Wind Chill</p>
+            </td>
+            <td>
+              <p class="table-header">Humidity</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p><span id='wind_speed'>20</span> mph</p>
+            </td>
+            <td>
+              <p><span id='wind_chill'>N/A</span></p>
+            </td>
+            <td>
+              <p><span id='humidity'>20</span> %</p>
+            </td>
+          </tr>
+        </table>
+      </div>
 
 
   </main>

@@ -526,6 +526,13 @@ h1 {
   }
 }
 
+.weather-table {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+
+
 @media only screen and (max-width: 576px) {
   footer {
     background-color: var(--verde-vino);
@@ -577,16 +584,15 @@ h1 {
   }
 
   /*---MAIN----*/
-  .index-main{
-
+  .index-main {
   }
-  .hero img{
+  .hero img {
     width: 100%;
   }
-  .hero h1{
+  .hero h1 {
     font-size: 25px;
   }
-  .hero h3{
+  .hero h3 {
     font-size: 20px;
     text-align: center;
   }

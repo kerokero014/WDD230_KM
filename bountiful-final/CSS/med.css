@@ -118,4 +118,8 @@
   .form-container {
     grid-area: 5 / 2 / 7 / 4;
   }
+  .weather-table,
+  .weather-card hr {
+    max-width: 320px;
+  }
 }

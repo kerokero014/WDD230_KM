@@ -19,9 +19,24 @@
     margin-bottom: 105px;
   }
 
+
+  
   .thanks_main h1 {
     font-size: 45px;
   }
+
+  /*-- Waether-----*/
+  div.weather-card {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: auto;
+  }
+
+  .weather-table {
+    margin: 0 auto;
+  }
+
+  /*----Footer----*/
 
   .wholefoot {
     background-color: var(--verde-vino);
