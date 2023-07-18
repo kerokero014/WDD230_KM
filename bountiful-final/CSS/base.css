@@ -184,10 +184,37 @@ textarea {
     padding: 1.25rem;
 }
 
+/*--- About us/ Work----*/
 
+.us-1 img{
+  width: 50%;
+  height: fit-content;
+  padding: 10px;
+}
+.us-2 img{ 
+  width: 50%;
+  padding: 10px;
+}
 
+.us-3 iframe {
+  width: 350px;
+  height: 200px;
+}
 
+.us-3{
+  padding: 15px;
+}
 
+.us-1 p, .us-2 p, .us-3 p{
+  padding: 15px;
+}
+
+.about-us-main{
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  color: var(--letters);
+}
 
 /* ------ Contact Us--------*/
 .contactUs {
@@ -390,7 +417,16 @@ textarea {
 }
 
 @media only screen and (max-width: 576px) {
+
+  footer img {
+    width: 45%;
+  }
+  footer h1 h2 h3{
+    font-size: 10px;
+  }
+
   footer {
+    text-align: center;
     background-color: var(--verde-vino);
   }
   
