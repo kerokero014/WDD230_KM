@@ -1,13 +1,9 @@
-const toggleBtn = document.querySelector('.toggle_btn');
-const toggleBTNIcon = document.querySelector('.toggle_btn i');
-const dropdownMenu = document.querySelector('.dropdown_menu');
+let menu = document.querySelector('#menu-icon');
+let navbar = document.querySelector('.navbar');
 
-toggleBtn.onclick = function() {
-  dropdownMenu.classList.toggle('open');
-  
-  const isOpen = dropdownMenu.classList.contains('open');
-  
-  toggleBTNIcon.classList = isOpen
-    ? 'fa-solid fa-xmark'
-    : 'fa-solid fa-bars';
-};
+menu.onclick = () => {
+  menu.classList.toggle('bx-x');
+  navbar.classList.toggle('open');
+
+}
+

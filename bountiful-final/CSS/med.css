@@ -2,24 +2,41 @@
 }*/
 
 @media only screen and (max-width: 992px) {
-  .navbar .links,
-  .navbar .action_btn {
-    display: none;
-  }
-
-  .navbar .toggle_btn {
+  #menu-icon button {
     display: block;
   }
 
-  .dropdown_menu {
-    display: block;
+  .navbar {
+    position: absolute;
+    top: 100%;
+    right: 100%;
+    width: 95%;
+    height: 29vh;
+    background:var(--ivory-color);
+    display: flex;
+    flex-direction: column;
+    transition: all 0.5s ease;
   }
 
-  .update {
-    padding: 15px;
-    font-size: 75%;
-    text-align: center;
+  .navbar a {
+    display: block;
+    margin: 12px 0;
+    padding: 0px 25px;
+    transition: all.50s ease;
+    color:vaR(--verde-fuerte);
   }
+
+  .navbar a:hover {
+    color: var(--letters);
+    transform: translateY(5px);
+  }
+
+  .navbar.open {
+    right: 2%;
+    border-radius: 20px;
+    height: 105px;
+  }
+
 
   footer {
     background-color: var(--background);
@@ -90,34 +107,10 @@
   }
 
   /*---labs----*/
-
-  
 }
 
 @media only screen and (min-width: 768px) {
-  header {
-    height: 90px;
-  }
-  .labs-main {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    grid-column-gap: 9px;
-    grid-row-gap: 9px;
-  }
 
-  .container-card {
-    grid-area: 1 / 2 / 3 / 4;
-  }
-
-  .carta {
-    grid-area: 3 / 2 / 5 / 4; 
-    margin-left: 12rem;
-  }
-
-  .form-container {
-    grid-area: 5 / 2 / 7 / 4;
-  }
   .weather-table,
   .weather-card hr {
     max-width: 320px;

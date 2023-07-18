@@ -32,9 +32,11 @@
   .navbar.open {
     right: 2%;
     border-radius: 20px;
-    height: 128px;
+    height: 100px;
   }
 
+
+  /*----Contact us page Meduim ---*/
   .contactUs {
     padding: 20px;
   }
