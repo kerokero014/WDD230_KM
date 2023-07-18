@@ -90,7 +90,7 @@
     right: 100%;
     width: 95%;
     height: 29vh;
-    background: var(--ivory-color);
+    background: var(--verde-uva);
     display: flex;
     flex-direction: column;
     transition: all 0.5s ease;
@@ -101,7 +101,7 @@
     margin: 12px 0;
     padding: 0px 25px;
     transition: all.50s ease;
-    color: vaR(--verde-fuerte);
+    color: vaR(--gris-color);
   }
 
   .navbar a:hover {
