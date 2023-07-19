@@ -62,15 +62,83 @@
     font-size: 45px;
   }
 
-  /*-- Waether-----*/
-  div.weather-card {
-    grid-column: 1/2;
-    grid-row: 2/3;
-    width: auto;
-  }
-
   .weather-table {
     margin: 0 auto;
+  }
+  /*----MAIN LARGE ---*/
+
+  .index-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.4fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-items: center;
+    grid-template-areas:
+      "main-1 main-1 main-2"
+      ". main-3 ."
+      "main-4 main-4 main-4";
+  }
+  .main-1 {
+    grid-area: main-1;
+  }
+
+  .main-2 {
+    grid-area: main-2;
+  }
+
+  .main-3 {
+    grid-area: main-3;
+  }
+
+  .main-4 {
+    grid-area: main-4;
+  }
+
+  .container-images {
+    display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr; 
+  gap: 0px 20px; 
+  grid-template-areas: 
+    "pic-1 pic-2 pic-3"; 
+  justify-content: center; 
+  align-items: center; 
+  }
+
+  .pic-1 {
+    grid-area: pic-1;
+  }
+
+  .pic-3 {
+    grid-area: pic-3;
+  }
+
+  .pic-2 {
+    grid-area: pic-2;
+  }
+
+
+  .main-1 img {
+    width: 100%;
+    height: auto;
+  }
+  .main-2 {
+    width: 68%;
+    height: 68%;
+  }
+  .main-2 img{
+    width: 100%;
+  }
+
+  .main-3 img{
+    width: 100%;
+    height: auto;
+  }
+
+  .main-4{
+    width: 100%;
   }
 
   /*----ABOUT US ----*/
@@ -173,5 +241,4 @@
     grid-gap: 20px;
     margin-top: 20px;
   }
-  /*----ABOUT US/OUR WORK ----*/
 }

@@ -44,7 +44,7 @@
     <section class="main-1">
       <picture class="main-pic">
         <source srcset="IMGs/med-background-veggies.webp" media="(min-width:748px) and (max-width:1199px)" />
-        <source srcset="IMGs/med-background-veggies.webp" media="(min-width:1200px)" />
+        <source srcset="IMGs/background-veggies.webp" media="(min-width:1200px)" />
         <img src="IMGs/background-veggies.webp" class="hero-img" alt="image of fruit" />
       </picture>
       <h1>Welcome to Bountiful Foods</h1>
@@ -64,13 +64,10 @@
                 <p>Current:</p>
               </td>
               <td>
-                <p>
-                  <img class="" id="weather_icon" src="IMGs/rainy.png" height="42" width="42" loading="lazy"
-                    alt="weather icon" />
-                </p>
+                <p><img class="" id="weather_icon" src="IMGs/rainy.png" loading="lazy" alt="weather icon"></p>
               </td>
               <td>
-                <h4><span id="temperature">32</span>°F</h4>
+                <h4><span id='temperature'>32</span>°F</h4>
               </td>
               <td>
                 <p><span id="forecast">Partly Cloudy</span></p>
@@ -91,13 +88,57 @@
             </tr>
             <tr>
               <td>
-                <p><span id="wind_speed">20</span> mph</p>
+                <p><span id='wind_speed'>20</span> mph</p>
               </td>
               <td>
-                <p><span id="wind_chill">N/A</span></p>
+                <p><span id='wind_chill'>N/A</span></p>
               </td>
               <td>
-                <p><span id="humidity">20</span> %</p>
+                <p><span id='humidity'>20</span> %</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <hr class="weather-table">
+        <div class="weather-table">
+          <h4 class="">3 Day Forecast</h4>
+          <table id="forecast-table" class="center">
+            <tr>
+              <td>
+                <p id="day1-name">Day 1</p>
+              </td>
+              <td><img class="spotlight-icon" id="day1-icon" src="images/01d@4x.png" height="42" width="42"
+                  alt="weather icon"></td>
+              <td>
+                <p><span id='day1-temp'>0</span>°F</p>
+              </td>
+              <td>
+                <p><span id='day1-description'>Cloudy</span></p>
+              </td>
+            <tr>
+              <td>
+                <p id="day2-name">Day 2</p>
+              </td>
+              <td><img class="spotlight-icon" id="day2-icon" src="images/01d@4x.png" height="42" width="42"
+                  alt="weather icon"></td>
+              <td>
+                <p><span id='day2-temp'>0</span>°F</p>
+              </td>
+              <td>
+                <p><span id='day2-description'>Cloudy</span></p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p id="day3-name">Day 3</p>
+              </td>
+              <td><img class="spotlight-icon" id="day3-icon" src="images/01d@4x.png" height="42" width="42"
+                  alt="weather icon"></td>
+              <td>
+                <p><span id='day3-temp'>0</span>°F</p>
+              </td>
+              <td>
+                <p><span id='day3-description'>Cloudy</span></p>
               </td>
             </tr>
           </table>
@@ -107,22 +148,24 @@
 
     <section class="main-3">
       <h2>Your Custom Drinks</h2>
-      <img src="IMGs/Labs 1.webp" alt="drinks" loading="lazy"/>
+      <img src="IMGs/Labs 1.webp" alt="drinks" loading="lazy" />
       <button><a href="fresh.html">Create one right now!</a></button>
     </section>
 
     <section class="main-4">
       <h1>Living in Carlsbad</h1>
-      <img src="IMGs/beach-2.webp" alt="beach in Carlsbad" />
       <p>Carlsbad, often referred to as "The Village by the Sea," is a picturesque city located along the beautiful
         coastline of North County San Diego. Boasting a Mediterranean-like climate, stunning beaches, and a welcoming
         community, Carlsbad offers an idyllic lifestyle that is hard to resist.</p>
-      <img src="IMGs/beach-1.jpg" alt="beach in Carlsbad" />
+      <div class="container-images">
+        <div class="pic-1"><img src="IMGs/beach-2.webp" alt="beach in Carlsbad" /></div>
+        <div class="pic-2"><img src="IMGs/beach-1.jpg" alt="beach in Carlsbad" /></div>
+        <div class="pic-3"> <img src="IMGs/beach-3.jpg" alt="beach in Carlsbad" /></div>
+      </div>
       <p>One of the standout features of Carlsbad is its coastal beauty. Miles of pristine beaches provide residents
         with endless opportunities for sunbathing, surfing, and enjoying breathtaking sunsets over the Pacific Ocean.
         Whether you're a nature lover, a water enthusiast, or simply seeking a peaceful retreat, Carlsbad's beaches will
         captivate you.</p>
-      <img src="IMGs/beach-3.jpg" alt="beach in Carlsbad" />
     </section>
   </main>
   <footer>

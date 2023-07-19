@@ -31,17 +31,6 @@ form {
   font-family: var(--font-Bitter);
 }
 
-.fadeInLeft {
-  -webkit-animation-name: fadeInLeft;
-  animation-name: fadeInLeft;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
-/*-------------Main-------------*/
-
 /*----navbar/header---*/
 
 header img {
@@ -121,12 +110,12 @@ header {
 }
 .main-pic img {
   width: 100%;
+  box-shadow: -7px 8px 28px 0px rgba(0,0,0,0.75);
 }
 
 .main-1{
   text-align: center;
   padding: 15px;
-
 }
 
 .main-2{
@@ -146,10 +135,12 @@ header {
 
 .main-4 img{
   width: 100%;
+  box-shadow: -7px 8px 28px 0px rgba(0,0,0,0.75);
 }
 
 .main-3 img{
   width: 99%;
+  box-shadow: -7px 8px 28px 0px rgba(0,0,0,0.75);
 }
 
 .main-3{
