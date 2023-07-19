@@ -40,3 +40,14 @@ if (URL == "index.html") {
     localStorage.numDrinks = 0;
   }
 }
+
+/// -----------------BANNER --------------///
+
+const d = new Date();
+const day = d.getDay();
+
+if (day == 1 || day == 2) {
+    const banner = document.querySelector("#banner");
+    banner.textContent = "Come get a shake on us with our BOGO free on Wedsndays @ 6:00 P.M. in all of our locations!";
+    banner.style.display = "block";
+}

@@ -100,67 +100,75 @@ header {
   font-size: 28px;
 }
 
+/*----BANNER----*/
+#banner {
+  text-align: center;
+  background-color: var(--verde-uva);
+  color: var(--letters);
+  font-family: var(--font-abel);
+  padding: 1rem;
+  display: none;
+}
 /*------Main------*/
 .index-main {
   color: var(--letters);
   display: grid;
-  grid-template-columns:1fr;
+  grid-template-columns: 1fr;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
 }
 .main-pic img {
   width: 100%;
-  box-shadow: -7px 8px 28px 0px rgba(0,0,0,0.75);
+  box-shadow: -7px 8px 28px 0px rgba(0, 0, 0, 0.75);
 }
 
-.main-1{
+.main-1 {
   text-align: center;
   padding: 15px;
 }
 
-.main-2{
+.main-2 {
   text-align: center;
   padding: 15px;
 }
 
-.main-3{
+.main-3 {
   text-align: center;
   padding: 15px;
 }
 
-.main-4{
+.main-4 {
   text-align: center;
   padding: 15px;
 }
 
-.main-4 img{
+.main-4 img {
   width: 100%;
-  box-shadow: -7px 8px 28px 0px rgba(0,0,0,0.75);
+  box-shadow: -7px 8px 28px 0px rgba(0, 0, 0, 0.75);
 }
 
-.main-3 img{
+.main-3 img {
   width: 99%;
-  box-shadow: -7px 8px 28px 0px rgba(0,0,0,0.75);
+  box-shadow: -7px 8px 28px 0px rgba(0, 0, 0, 0.75);
 }
 
-.main-3{
+.main-3 {
   text-align: center;
   align-items: center;
 }
 
-button{
+button {
   background-color: var(--verde-uva);
   padding: 9px;
   border-radius: 20px;
 }
-button a{
+button a {
   color: whitesmoke;
 }
 
-button:hover{
-  background-color:#AAC5AA;
+button:hover {
+  background-color: #aac5aa;
   padding: 15px;
-
 }
 .weather-table {
   max-width: 320px;
@@ -173,12 +181,10 @@ div.home-page-card {
   align-items: center;
   justify-content: space-evenly;
   box-shadow: 0 0 30px #777;
-  outline: 2px solid black;
   padding: 0.75em;
   margin: 5px;
   width: 100%;
 }
-
 
 /*---Fresh---*/
 .fresh-main-container {

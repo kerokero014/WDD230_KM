@@ -76,14 +76,21 @@
     justify-content: center;
     align-items: center;
     grid-template-areas:
-      "main-1 main-1 main-2"
-      ". main-3 ."
+      "main-1 main-1 main-1"
+      "main-2 main-3 main-3"
       "main-4 main-4 main-4";
   }
   .main-1 {
     grid-area: main-1;
   }
 
+  .index-main p{
+    font-size: 27px;
+  }
+
+  .index-main h1 h2 h3{
+    font-size: 25px;
+  }
   .main-2 {
     grid-area: main-2;
   }
@@ -119,19 +126,19 @@
   }
 
   .main-1 img {
-    width: 100%;
+    width: 80%;
     height: auto;
   }
   .main-2 {
-    width: 68%;
-    height: 68%;
+    width: 70%;
+    height: 80%;
   }
   .main-2 img {
-    width: 100%;
+    width: 50%;
   }
 
   .main-3 img {
-    width: 100%;
+    width: 90%;
     height: auto;
   }
 
