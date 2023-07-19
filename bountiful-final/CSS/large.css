@@ -97,14 +97,13 @@
   }
 
   .container-images {
-    display: grid; 
-  grid-template-columns: 1fr 1fr 1fr; 
-  grid-template-rows: 1fr; 
-  gap: 0px 20px; 
-  grid-template-areas: 
-    "pic-1 pic-2 pic-3"; 
-  justify-content: center; 
-  align-items: center; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 20px;
+    grid-template-areas: "pic-1 pic-2 pic-3";
+    justify-content: center;
+    align-items: center;
   }
 
   .pic-1 {
@@ -119,7 +118,6 @@
     grid-area: pic-2;
   }
 
-
   .main-1 img {
     width: 100%;
     height: auto;
@@ -128,16 +126,16 @@
     width: 68%;
     height: 68%;
   }
-  .main-2 img{
+  .main-2 img {
     width: 100%;
   }
 
-  .main-3 img{
+  .main-3 img {
     width: 100%;
     height: auto;
   }
 
-  .main-4{
+  .main-4 {
     width: 100%;
   }
 
