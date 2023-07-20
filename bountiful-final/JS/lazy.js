@@ -1,32 +1,38 @@
-const allImages = document.querySelectorAll("img[data-src]");
+  // Function to lazy load images when they enter the viewport
+  function lazyLoadImages() {
+    const lazyImages = document.querySelectorAll('img[loading="lazy"]');
 
-const lazyLoad = (img) => {
-  img.setAttribute("src", img.getAttribute("data-src"));
-  img.onload = () => {
-    img.removeAttribute("data-src");
-    img.className = "in";
-  };
-};
+    // Check if Intersection Observer is supported in the user's browser
+    if ('IntersectionObserver' in window) {
+      const options = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.1, // Adjust this threshold to your preference
+      };
 
-const options = {
-  threshold: 0,
-  rootMargin: "0px 0px 50px 0px",
-};
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const lazyImage = entry.target;
+            lazyImage.src = lazyImage.dataset.src;
+            lazyImage.removeAttribute('data-src');
+            observer.unobserve(lazyImage);
+          }
+        });
+      }, options);
 
-if ("IntersectionObserver" in window) {
-  const obsrvr = new IntersectionObserver((items, observer) => {
-    items.forEach((item) => {
-      if (item.isIntersecting) {
-        lazyLoad(item.target);
-        observer.unobserve(item.target);
-      }
-    });
-  }, options);
-  allImages.forEach((img) => {
-    obsrvr.observe(img);
-  });
-} else {
-  allImages.forEach((img) => {
-    lazyLoad(img);
-  });
-}
+      lazyImages.forEach((lazyImage) => {
+        observer.observe(lazyImage);
+      });
+    } else {
+      // Fallback for browsers that don't support Intersection Observer
+      // Load all images immediately
+      lazyImages.forEach((lazyImage) => {
+        lazyImage.src = lazyImage.dataset.src;
+        lazyImage.removeAttribute('data-src');
+      });
+    }
+  }
+
+  // Call the function to start lazy loading when the DOM is ready
+  document.addEventListener('DOMContentLoaded', lazyLoadImages);
