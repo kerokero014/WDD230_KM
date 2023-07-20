@@ -171,7 +171,6 @@ button a {
 
 button:hover {
   background-color: #aac5aa;
-  padding: 15px;
 }
 .weather-table {
   max-width: 320px;
