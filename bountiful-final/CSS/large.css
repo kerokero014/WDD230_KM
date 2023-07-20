@@ -85,11 +85,12 @@
   }
 
   .index-main p{
-    font-size: 27px;
+    font-size: 18px;
+    padding: 10px;
   }
 
   .index-main h1 h2 h3{
-    font-size: 25px;
+    font-size: 20px;
   }
   .main-2 {
     grid-area: main-2;
@@ -131,11 +132,12 @@
   }
   .main-2 {
     width: 85%;
-    height: 80%;
+    height: 100%;
     margin-left: 70px;
   }
+
   .main-2 img {
-    width: 50%;
+    width: 100%;
   }
 
   .main-3 img {
